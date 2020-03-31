@@ -7023,6 +7023,25 @@ a.text-dark:hover, a.text-dark:focus {
 a.link:hover {
   text-decoration: none; }
 
+.navbar-breadcrumbs {
+  height: 36px;
+  max-height: 36px;
+  min-height: 36px; }
+  .navbar-breadcrumbs .breadcrumb {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    background-color: transparent; }
+
+.breadcrumb {
+  border-radius: 0; }
+
+.page-photo .navbar-breadcrumbs,
+.page-category .navbar-breadcrumbs,
+.page-set .navbar-breadcrumbs {
+  height: 36px;
+  max-height: 36px;
+  min-height: 36px; }
+
 footer .contact-info {
   font-weight: 200;
   color: #aaa; }
