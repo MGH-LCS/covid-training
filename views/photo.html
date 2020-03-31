@@ -1,0 +1,73 @@
+<!doctype html>
+
+<head> 
+   {% include 'common/meta.html' %}
+   {% include 'common/styles.html' %}
+</head>
+
+<body class="page-photo">
+   	<?php include_once("analyticstracking.php") ?>
+   	{% include 'common/nav.html'%}
+
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+			<li class="breadcrumb-item"><a href="{{urlCategory}}">{{category}}</a></li>
+			{% if urlSet != null %}
+				<li class="breadcrumb-item"><a href="{{urlSet}}">{{set}}</a></li>
+			{% endif %}
+			<li class="breadcrumb-item active">{{shortTitle}}</a></li>
+		</ol> 
+    </nav>
+
+	<div class="container-fluid">
+		<div class="row row-photo">
+
+
+				<a href="{{urlPrevious}}" class="col-nav hidden-xs">
+					<div class="col-xs-1">
+						<button class="btn btn-link btn-nav" href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+					</div><!-- .col -->
+				</a>
+				<div class="col-xs-12 col-sm-10 col-photo">
+					{% if photo.youtube == null %}
+						<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
+					{% else %}
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{photo.youtube}}"></iframe>
+						</div>
+						
+					{% endif %}
+
+					{% if photo.caption == null %}
+						
+					{% else %}
+						
+						<h5 style="color: white; font-weight: 400; line-height: 1.4">{{photo.caption}}</h5>
+					{% endif %}
+				</div><!-- .col -->
+				<a href="{{urlNext}}" class="col-nav hidden-xs">
+					<div class="col-xs-1">
+						<button class="btn btn-link btn-nav" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+					</div><!-- .col -->
+				</a>
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	<div class="container-fluid visible-xs">
+		<div class="row">
+			<div class="col-xs-6 text-center">
+				<a class="btn btn-link btn-nav" href="{{urlPrevious}}"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+			</div><!-- .col -->
+			<div class="col-xs-6 text-center">
+					<a class="btn btn-link btn-nav" href="{{urlNext}}"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+				</div><!-- .col -->
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+	
+</body>
+</html>

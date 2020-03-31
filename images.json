@@ -1,0 +1,221 @@
+{"images": [
+
+{"_id": "molly"
+        , "folder": "photos/2014/08-August/2014-08-08/molly"
+        , "youtube": "yattBa4YiLE"
+        , "title": "Molly"
+        , "caption":"Molly is leaving JP soon, and spending as much time with her friends as possible before leaving."
+        , "year": "2014"
+        , "category": "Advanced PPE"
+        , "viewOnCategories": true
+    },
+    
+    {"_id": "joanne"
+        , "folder": "photos/2014/08-August/2014-08-08/joanne"
+        , "youtube": "uZycNR0q6Dg"
+        , "title": "Joanne"
+        , "caption":"Joanne shares about her fearless 5 year old."
+        , "year": "2014"
+        , "category": "Advanced PPE"
+        , "viewOnCategories": true
+    },
+
+
+{"_id": "george-1"
+    , "folder": "photos/2017/05-May/2017-05-10/george-1"
+    , "title": "George"
+    , "year": "2017"
+    , "category": "Advanced PPE"
+    , "viewOnCategories": false
+    , "set":"George Summers Jr"
+    , "partOfSet": true
+    , "setCount": "6"
+    , "story" : true
+    , "hideTitles" : true
+},
+
+{"_id": "george-2"
+    , "folder": "photos/2017/05-May/2017-05-10/george-2"
+    , "title": "George"
+    , "year": "2017"
+    , "category": "Advanced PPE"
+    , "viewOnCategories": false
+    , "set":"George Summers Jr"
+    , "partOfSet": true
+},
+
+
+
+
+{"_id": "bob-lg-1"
+    , "folder": "photos/2017/05-May/2017-05-06/bob-1"
+    , "title": "Robert Siegelman"
+    , "year": "2017"
+    , "category": "Advanced PPE"
+    , "viewOnCategories": false
+},
+
+
+{"_id": "esther-1"
+    , "folder": "photos/2017/06-June/2017-06-13/esther-1"
+    , "title": "Esther"
+    , "year": "2017"
+    , "category": "Portraits"
+    , "viewOnCategories": false
+    , "set":"Esther"
+    , "partOfSet": true
+    , "setCount": "2"
+
+},
+
+{"_id": "esther-2"
+    , "folder": "photos/2017/06-June/2017-06-13/esther-2"
+    , "title": "Esther"
+    , "year": "2017"
+    , "category": "Portraits"
+    , "viewOnCategories": true
+    , "set":"Esther"
+    , "partOfSet": true
+},
+
+
+
+{"_id": "jpos-1"
+    , "folder": "photos/2017/09-September/2017-09-23/jpos-1"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "JP Open Studios 2017"
+    , "viewOnCategories": false
+    , "set":"Jamaica Plain Open Studios 2017"
+    , "partOfSet": true
+},
+
+{"_id": "jpos-2"
+    , "folder": "photos/2017/09-September/2017-09-23/jpos-2"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "JP Open Studios 2017"
+    , "viewOnCategories": false
+    , "set":"Jamaica Plain Open Studios 2017"
+    , "partOfSet": true
+},
+
+
+{"_id": "jpos-32"
+    , "folder": "photos/2017/09-September/2017-09-23/jpos-32"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "JP Open Studios"
+    , "viewOnCategories": true
+    , "set":"Jamaica Plain Open Studios 2017"
+    , "partOfSet": true
+    , "setCount": "52"
+    , "story" : true
+    , "storyIntro" : "<p>For two days in September I opened my home studio for Jamaica Plain Open Studios. Jameson & Thompson Picture Framers (http://www.jamesonandthompson.com) let me borrow a gorgeous frame. I had a chance to photograph many of the people that visited my studio. I want to thank everyone that particpated.</p>"
+},
+
+{"_id": "jpos-33"
+    , "folder": "photos/2017/09-September/2017-09-23/jpos-33"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "JP Open Studios 2017"
+    , "viewOnCategories": false
+    , "set":"Jamaica Plain Open Studios 2017"
+    , "partOfSet": true
+},
+
+
+{"_id": "jpos-52"
+    , "folder": "photos/2017/09-September/2017-09-23/jpos-52"
+    , "title": ""
+    , "caption":""
+    , "year": "2017"
+    , "category": "JP Open Studios 2017"
+    , "viewOnCategories": false
+    , "set":"Jamaica Plain Open Studios 2017"
+    , "partOfSet": true
+},
+
+
+
+
+
+
+
+
+
+{"_id": "everything"
+    , "folder": "photos/2017/01-January/2017-01-07/flower"
+    , "title": "Everything"
+    , "year": "2017"
+    , "category": "Flowers"
+    , "viewOnCategories": true
+},
+
+
+
+
+
+
+
+
+{"_id": "ben-1"
+    , "folder": "photos/2017/03-March/2017-03-12/ben-1"
+    , "title": "Ben and Andrew"
+    , "year": "2017"
+    , "category": "Portraits"
+    , "viewOnCategories": false
+},
+
+
+
+{"_id": "zoe-1"
+    , "folder": "photos/2017/02-February/2017-02-22/zoe-1"
+    , "title": "Zoe and Stanley"
+    , "year": "2017"
+    , "category": "Pets"
+    , "viewOnCategories": true
+    , "set":"Zoe and Stanley"
+    , "partOfSet": true
+    , "setCount": "4"
+    , "story" : true
+    , "hideTitles" : true
+},
+
+{"_id": "zoe-3"
+    , "folder": "photos/2017/02-February/2017-02-22/zoe-3"
+    , "title": "Zoe and Stanley"
+    , "year": "2017"
+    , "category": "Pets"
+    , "viewOnCategories": false
+    , "set":"Zoe and Stanley"
+    , "partOfSet": true
+},
+
+{"_id": "zoe-4"
+    , "folder": "photos/2017/02-February/2017-02-22/zoe-4"
+    , "title": "Zoe and Stanley"
+    , "year": "2017"
+    , "category": "Pets"
+    , "viewOnCategories": false
+    , "set":"Zoe and Stanley"
+    , "partOfSet": true
+},
+
+{"_id": "zoe-5"
+    , "folder": "photos/2017/02-February/2017-02-22/zoe-5"
+    , "title": "Zoe and Stanley"
+    , "year": "2017"
+    , "category": "Pets"
+    , "viewOnCategories": false
+    , "set":"Zoe and Stanley"
+    , "partOfSet": true
+}
+
+
+
+]}

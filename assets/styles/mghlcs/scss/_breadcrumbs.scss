@@ -1,0 +1,22 @@
+.navbar-breadcrumbs {
+  height: 36px;
+  max-height: 36px;
+  min-height: 36px;
+
+  .breadcrumb {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+  }
+
+}
+
+.page-photo,
+.page-category,
+.page-set  {
+  .navbar-breadcrumbs {
+  height: 36px;
+  max-height: 36px;
+  min-height: 36px;
+}
+}
