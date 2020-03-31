@@ -14,11 +14,23 @@
 		{% endif %}
 
 				{% if view == 'photo' %}
-					<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+					{% if image.youtube == null %}
+						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+					{% else %}
+						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">		
+					{% endif %}
 				{% elseif view == 'sets' %}
-					<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+					{% if category.youtube == null %}
+						<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+					{% else %}
+						<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('https://img.youtube.com/vi/{{category.youtube}}/hqdefault.jpg')">
+					{% endif %}
 				{% else %}
-					<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+					{% if category.youtube == null %}
+						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+					{% else %}
+						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('https://img.youtube.com/vi/{{category.youtube}}/hqdefault.jpg')">
+						{% endif %}
 				{% endif %}
 				
 					<div class="card-body">
