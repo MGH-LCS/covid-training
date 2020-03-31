@@ -1,23 +1,81 @@
 {
     "images": [
         {
-            "_id": "molly",
+            "_id": "donning-ppe",
             "folder": "photos/2014/08-August/2014-08-08/molly",
             "title": "Donning PPE",
             "caption": "",
             "category": "Perioperative Care",
             "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
             "viewOnCategories": false
         },
         {
-            "_id": "joanne",
+            "_id": "n95-fit",
             "folder": "photos/2014/08-August/2014-08-08/joanne",
             "title": "Optimizing N-95 Fit",
             "caption": "",
             "category": "Perioperative Care",
             "youtube": "LxljPRCvg1I",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/e/ea/Optimizing_N-95_Fit.pdf",
             "viewOnCategories": true
         },
+        {
+            "_id": "doffing-ppe",
+            "folder": "photos/2014/08-August/2014-08-08/molly",
+            "title": "Doffing PPE",
+            "caption": "",
+            "category": "Perioperative Care",
+            "youtube": "u2fT_NV6VlA",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/2/24/Doffing.pdf",
+            "viewOnCategories": false
+        },
+
+        {
+            "_id": "Operating-Room-Intubation",
+            "folder": "photos/2014/08-August/2014-08-08/molly",
+            "title": "Operating Room Intubation",
+            "caption": "",
+            "category": "Perioperative Care",
+            "youtube": "zsQgfUC_RBg",
+            "document": "",
+            "viewOnCategories": false
+        },
+
+
+        {
+            "_id": "Mgmt-Already-Intubated",
+            "folder": "photos/2014/08-August/2014-08-08/molly",
+            "title": "Mgmt for 'Already Intubated'",
+            "caption": "",
+            "category": "Perioperative Care",
+            "youtube": "C6z-vdg_PpQ",
+            "document": "",
+            "viewOnCategories": false
+        },
+
+        {
+            "_id": "Operating-Room-Extubation",
+            "folder": "photos/2014/08-August/2014-08-08/molly",
+            "title": "Operating Room Extubation",
+            "caption": "",
+            "category": "Perioperative Care",
+            "youtube": "jpFUknwXWa4",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf",
+            "viewOnCategories": false
+        },
+
+        {
+            "_id": "Extubation-Additional-Method",
+            "folder": "photos/2014/08-August/2014-08-08/molly",
+            "title": "Extubation (Additional Method)",
+            "caption": "",
+            "category": "Perioperative Care",
+            "youtube": "J_KVOlpwtEA",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf",
+            "viewOnCategories": false
+        },
+
         {
             "_id": "george-1",
             "folder": "photos/2017/05-May/2017-05-10/george-1",

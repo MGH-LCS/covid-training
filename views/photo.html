@@ -22,40 +22,42 @@
 
 	<div class="container-fluid">
 		<div class="row row-photo">
-
-
-				<a href="{{urlPrevious}}" class="col-nav hidden-xs">
-					<div class="col-xs-1">
-						<button class="btn btn-link btn-nav" href="#"><i class="fas fa-chevron-left"></i></button>
-					</div><!-- .col -->
-				</a>
-				<div class="col-xs-12 col-sm-10 col-photo">
-					{% if photo.youtube == null %}
-						<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
-					{% else %}
-						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{photo.youtube}}"></iframe>
-						</div>
-						
-					{% endif %}
-
-					{% if photo.caption == null %}
-						
-					{% else %}
-						
-						<h5 style="color: white; font-weight: 400; line-height: 1.4">{{photo.caption}}</h5>
-					{% endif %}
+			<a href="{{urlPrevious}}" class="col-nav hidden-xs">
+				<div class="col-xs-1">
+					<button class="btn btn-link btn-nav" href="#"><i class="fas fa-chevron-left"></i></button>
 				</div><!-- .col -->
-				<a href="{{urlNext}}" class="col-nav hidden-xs">
-					<div class="col-xs-1">
-						<button class="btn btn-link btn-nav" href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
-					</div><!-- .col -->
-				</a>
+			</a>
+			<div class="col-xs-12 col-sm-10 col-photo">
+				{% if photo.youtube == null %}
+					<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
+				{% else %}
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{photo.youtube}}"></iframe>
+					</div>
+					
+				{% endif %}
+
+				{% if photo.caption == null %}
+					
+				{% else %}
+					
+					<h5 style="color: white; font-weight: 400; line-height: 1.4">{{photo.caption}}</h5>
+				{% endif %}
+				{% if photo.document != null %}
+					
+					<div class="document mt-4"><a href="{{photo.document}}" target="_blank"> Summary Document</a></div>
+				{% endif %}
+			</div><!-- .col -->
+			<a href="{{urlNext}}" class="col-nav hidden-xs">
+				<div class="col-xs-1">
+					<button class="btn btn-link btn-nav" href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+				</div><!-- .col -->
+			</a>
 
 		</div><!-- .row -->
 	</div><!-- .container -->
 
-	<div class="container-fluid visible-xs">
+	<div class="container-fluid d-none">
 		<div class="row">
 			<div class="col-xs-6 text-center">
 				<a class="btn btn-link btn-nav" href="{{urlPrevious}}"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>

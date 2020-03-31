@@ -22,16 +22,19 @@
 			{% for image in images %}
 				{% if image.hide != true %}
 					{% if image.partOfSet == false %}
-						<div class="col-4">
+						<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
 							<a href="photo.php?photo={{image._id}}" >
 							{% if image.youtube == null %}
 								<img src="{{image.folder}}/thumbnail.jpg" class="img-fluid" />
 							{% else %}
 								<img src="https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg" class="img-fluid" />
 							{% endif %}
-						<div class="caption">{{ image.title }}</div>
-						</a>
-					</div>
+							</a>
+							<div class="caption mt-3"><h4>{{ image.title }}</h4></div>
+							{% if image.document != null %}
+								<div class="document"><a href="{{image.document}}" target="_blank"> Summary Document</a></div>
+							{% endif %}
+						</div>
 					
 					{% endif %}
 					{% if image.setCount != null %}
