@@ -2,13 +2,13 @@
     "images": [
         {
             "_id": "donning-ppe",
-            "folder": "photos/2014/08-August/2014-08-08/molly",
+            "folder": "assets/images/categories/perioperative-care",
             "title": "Donning PPE",
             "caption": "",
             "category": "Perioperative Care",
             "youtube": "jeBhl1ApFT8",
             "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": false
+            "viewOnCategories": true
         },
         {
             "_id": "n95-fit",
@@ -18,7 +18,7 @@
             "category": "Perioperative Care",
             "youtube": "LxljPRCvg1I",
             "document": "https://ether.mgh.harvard.edu/wiki/images/e/ea/Optimizing_N-95_Fit.pdf",
-            "viewOnCategories": true
+            "viewOnCategories": false
         },
         {
             "_id": "doffing-ppe",
@@ -76,12 +76,165 @@
             "viewOnCategories": false
         },
 
+
+        {
+            "_id": "advanced-ppe",
+            "folder": "assets/images/categories/advanced-ppe",
+            "title": "Donning PPE",
+            "caption": "",
+            "category": "Advanced PPE",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+        {
+            "_id": "anesthesia",
+            "folder": "assets/images/categories/anesthesia",
+            "title": "Donning PPE",
+            "caption": "",
+            "category": "Anesthesia",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+        {
+            "_id": "critical-care-sample",
+            "folder": "assets/images/categories/critical-care",
+            "title": "Donning PPE",
+            "caption": "",
+            "category": "Critical Care",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+        {
+            "_id": "ecmo-sample",
+            "folder": "assets/images/categories/ecmo",
+            "title": "Donning PPE",
+            "caption": "",
+            "category": "ECMO",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+
+        {
+            "_id": "emergency-medicine-sample",
+            "folder": "assets/images/categories/emergency-medicine",
+            "title": "Donning PPE",
+            "caption": "",
+            "category": "Emergency Medicine",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+        {
+            "_id": "ems-transport-sample",
+            "folder": "assets/images/categories/ems-transport",
+            "title": "Donning PPE",
+            "caption": "",
+            "category": "EMS Transport",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+        {
+            "_id": "ethics-sample",
+            "folder": "assets/images/categories/ethics",
+            "title": "Ethics Video",
+            "caption": "",
+            "category": "Ethics",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+        {
+            "_id": "medical-education-sample",
+            "folder": "assets/images/categories/medical-education",
+            "title": "medical-education Video",
+            "caption": "",
+            "category": "Medical Education",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+        {
+            "_id": "nursing-sample",
+            "folder": "assets/images/categories/nursing",
+            "title": "nursing Video",
+            "caption": "",
+            "category": "Nursing",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+        {
+            "_id": "psychiatry-sample",
+            "folder": "assets/images/categories/psychiatry",
+            "title": "psychiatry Video",
+            "caption": "",
+            "category": "Psychiatry",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+        {
+            "_id": "surgery-sample",
+            "folder": "assets/images/categories/surgery",
+            "title": "surgery Video",
+            "caption": "",
+            "category": "Surgery",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+        {
+            "_id": "ultrasound-sample",
+            "folder": "assets/images/categories/ultrasound",
+            "title": "ultrasound Video",
+            "caption": "",
+            "category": "Ultrasound",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+        {
+            "_id": "ventilators-sample",
+            "folder": "assets/images/categories/ventilators",
+            "title": "ventilators Video",
+            "caption": "",
+            "category": "Ventilators",
+            "youtube": "jeBhl1ApFT8",
+            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
+            "viewOnCategories": true
+        },
+
+
+
         {
             "_id": "george-1",
             "folder": "photos/2017/05-May/2017-05-10/george-1",
             "title": "George",
             "caption": "2017",
-            "category": "Advanced PPE",
+            "category": "Old",
             "viewOnCategories": false,
             "set": "George Summers Jr",
             "partOfSet": true,
@@ -94,7 +247,7 @@
             "folder": "photos/2017/05-May/2017-05-10/george-2",
             "title": "George",
             "caption": "2017",
-            "category": "Advanced PPE",
+            "category": "Old",
             "viewOnCategories": false,
             "set": "George Summers Jr",
             "partOfSet": true
@@ -104,7 +257,7 @@
             "folder": "photos/2017/05-May/2017-05-06/bob-1",
             "title": "Robert Siegelman",
             "caption": "2017",
-            "category": "Advanced PPE",
+            "category": "Old",
             "viewOnCategories": false
         },
         {

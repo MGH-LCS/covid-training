@@ -2,6 +2,14 @@ a.link:hover {
     text-decoration: none;
 }
 
+.categories-card {
+    min-height: 200px;    
+}
+
+.categories-card-header {
+    color: white;
+    font-weight: 600;
+}
 
 // // THIS KEEPS THE HOVER DISPLAY HIDDEN FROM MOBILE DEVICES
 // @media (min-width: $screen-sm-min) {

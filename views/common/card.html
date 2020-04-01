@@ -1,4 +1,3 @@
-
 <div class="col-12 col-md-6 col-lg-4">
 
 		{% if view == 'photo' %}
@@ -13,39 +12,27 @@
 			<a href="category.php?category={{category.category}}"  class="link category-link">
 		{% endif %}
 
+		{% if view == 'photo' %}
+			<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+		{% elseif view == 'sets' %}
+			<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+		{% else %}
+			<div class="card w-100 mb-3 categories-card" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+		{% endif %}
+		
+			<div class="card-body">
 				{% if view == 'photo' %}
-					{% if image.youtube == null %}
-						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
-					{% else %}
-						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">		
-					{% endif %}
+					<h1>{{ image.title }}</h1>
+					<!-- <small>{{image.type}}</small> -->
 				{% elseif view == 'sets' %}
-					{% if category.youtube == null %}
-						<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
-					{% else %}
-						<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('https://img.youtube.com/vi/{{category.youtube}}/hqdefault.jpg')">
-					{% endif %}
+					<h1>{{ category.set }}</h1>
 				{% else %}
-					{% if category.youtube == null %}
-						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
-					{% else %}
-						<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('https://img.youtube.com/vi/{{category.youtube}}/hqdefault.jpg')">
-						{% endif %}
+					<h1 class="categories-card-header">
+						{{ category.category }}
+					</h1>
 				{% endif %}
-				
-					<div class="card-body">
-						{% if view == 'photo' %}
-							<h1>{{ image.title }}</h1>
-							<!-- <small>{{image.type}}</small> -->
-						{% elseif view == 'sets' %}
-							<h1>{{ category.set }}</h1>
-						{% else %}
-							<h1>
-								{{ category.category }}
-							</h1>
-						{% endif %}
-					</div><!-- .card-body-->
-				</div><!-- .card -->
-			</a>
+			</div><!-- .card-body-->
+		</div><!-- .card -->
+	</a>
 
 </div><!-- .col -->
