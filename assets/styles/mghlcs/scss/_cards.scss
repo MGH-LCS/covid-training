@@ -13,6 +13,12 @@ a.link:hover {
     font-weight: 600;
 }
 
+.category-card-youtube {
+    background-size: cover;
+    background-position: center;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
 // // THIS KEEPS THE HOVER DISPLAY HIDDEN FROM MOBILE DEVICES
 // @media (min-width: $screen-sm-min) {
     
