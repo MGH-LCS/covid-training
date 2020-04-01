@@ -31,7 +31,7 @@
 								<div class="card w-100 category-card category-card-youtube" data-content="{{image.set}}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">
 									<div class="card-body">
 										<h1 class="category-card-header">
-											{{ image.title }}
+											<i class="fab fa-youtube"></i> {{ image.title }}
 										</h1>
 									</div>
 								</div>
@@ -50,7 +50,7 @@
 								<div class="card w-100 category-card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
 									<div class="card-body">
 										<h1 class="category-card-header">
-											{{ image.set }}
+											{{ image.set }} <small>({{ image.setCount}})</small>
 										</h1>
 									</div>
 								</div>
