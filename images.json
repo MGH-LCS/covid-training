@@ -13,12 +13,25 @@
         },
 
         {   
+          "_id": "anesthesia-main-card"
+          , "folder": "assets/images/categories/anesthesia"
+          , "title": ""
+          , "caption":""
+          , "category": "Anesthesia"
+          , "viewOnCategories": true
+          , "hideOnCategory": true
+          , "story" : false
+          , "storyIntro" : ""
+          , "hideOnSet" : true
+      },
+
+        {   
             "_id": "perioperative-care-set"
             , "folder": "assets/images/categories/perioperative-care"
             , "title": ""
             , "caption":""
             , "category": "Anesthesia"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
             , "set":"Perioperative Care"
             , "partOfSet": true
             , "setCount": "7"

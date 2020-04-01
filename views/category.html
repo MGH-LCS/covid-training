@@ -20,7 +20,7 @@
 
 		<div class="row">
 			{% for image in images %}
-				{% if image.hide != true %}
+				{% if image.hideOnCategory != true %}
 					{% if image.partOfSet == false %}
 						<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
 							<a href="photo.php?photo={{image._id}}" >
