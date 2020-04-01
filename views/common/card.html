@@ -20,15 +20,16 @@
 			<div class="card w-100 mb-3 categories-card" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
 		{% endif %}
 		
-			<div class="card-body">
+			<div class="card-body" style="color: white;">
 				{% if view == 'photo' %}
 					<h1>{{ image.title }}</h1>
 					<!-- <small>{{image.type}}</small> -->
 				{% elseif view == 'sets' %}
 					<h1>{{ category.set }}</h1>
 				{% else %}
+					<i class="fal fa-layer-group cat-header"></i> 
 					<h1 class="categories-card-header">
-						<i class="fal fa-layer-group"></i> {{ category.category }}
+						{{ category.category }}
 					</h1>
 				{% endif %}
 			</div><!-- .card-body-->

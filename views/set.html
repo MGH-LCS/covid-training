@@ -28,17 +28,18 @@
 							<h5 class="caption mt-1">{{ image.title }}</h5>
 						{% else %}
 						<div class="card w-100 category-card category-card-youtube" data-content="{{image.set}}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">
-							<div class="card-body">
+							<div class="card-body" style="color: white;">
+								<i class="fab fa-youtube  cat-header"></i> 
 								<h1 class="category-card-header">
-									<i class="fab fa-youtube"></i> {{ image.title }}
+									{{ image.title }}
 								</h1>
 							</div>
 						</div>
 						{% endif %}
 					</a>
-					{% if image.document != null %}
+					<!-- {% if image.document != null %}
 						<div class="document mt-1"><a href="{{image.document}}" target="_blank"> Summary Document</a></div>
-					{% endif %}
+					{% endif %} -->
 				</div>
 				{% endif %}
 			{% endfor %}

@@ -2,6 +2,7 @@ a.link:hover {
     text-decoration: none;
 }
 
+
 .categories-card,
 .category-card {
     min-height: 200px;    
@@ -11,6 +12,11 @@ a.link:hover {
     text-align: left;
     color: white;
     font-weight: 600;
+}
+
+.cat-header {
+    float: right;
+    font-size: 1.5rem;
 }
 
 .category-card-youtube {
