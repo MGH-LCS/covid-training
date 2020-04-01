@@ -22,12 +22,12 @@
 
 	<div class="container-fluid">
 		<div class="row row-photo">
-			<a href="{{urlPrevious}}" class="col-nav hidden-xs">
+			<!-- <a href="{{urlPrevious}}" class="col-nav hidden-xs">
 				<div class="col-xs-1">
 					<button class="btn btn-link btn-nav" href="#"><i class="fas fa-chevron-left"></i></button>
-				</div><!-- .col -->
-			</a>
-			<div class="col-xs-12 col-sm-10 col-photo">
+				</div>
+			</a> -->
+			<div class="col-12 text-center">
 				{% if photo.youtube == null %}
 					<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
 				{% else %}
@@ -46,11 +46,11 @@
 					<div class="document mt-4"><a href="{{photo.document}}" target="_blank"> Summary Document</a></div>
 				{% endif %}
 			</div><!-- .col -->
-			<a href="{{urlNext}}" class="col-nav hidden-xs">
+			<!-- <a href="{{urlNext}}" class="col-nav hidden-xs">
 				<div class="col-xs-1">
 					<button class="btn btn-link btn-nav" href="#"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
-				</div><!-- .col -->
-			</a>
+				</div>
+			</a> -->
 
 		</div><!-- .row -->
 	</div><!-- .container -->

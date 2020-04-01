@@ -19,16 +19,20 @@
 	<div class="container">
 		<div class="row">
 
-			<div id="gallery" class="justified-gallery">
-				{% for image in images %}
-				{% if image.hide != true %}
-					<a href="photo.php?photo={{image._id}}" class="link">
-						<img src="{{image.folder}}/thumbnail.jpg" class="img-responsive" />
-						<div class="caption">{{ image.title }}</div>
-					</a>
-				{% endif %}
-				{% endfor %}
+			{% for image in images %}
+			{% if image.hideOnSet != true %}
+			<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
+				<a href="photo.php?photo={{image._id}}" class="link">
+					{% if image.youtube == null %}
+								<img src="{{image.folder}}/thumbnail.jpg" class="img-fluid" />
+							{% else %}
+								<img src="https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg" class="img-fluid" />
+							{% endif %}
+					<div class="caption">{{ image.title }}</div>
+				</a>
 			</div>
+			{% endif %}
+			{% endfor %}
 
 		</div><!-- .row -->
 	</div><!-- .container -->
@@ -38,15 +42,6 @@
 	{% include 'common/footer.html' %}
 	{% include 'common/scripts.html' %}
 	{% include 'common/tracking.html' %}
-
-	<script type="text/javascript">
-		$('#gallery').justifiedGallery({
-	    	rowHeight : 370,
-	    	lastRow : 'nojustify',
-	   		margins : 3,
-	   		captions : true
-		});
-	</script>
 
 </body>
 </html>

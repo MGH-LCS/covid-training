@@ -38,16 +38,24 @@
 					
 					{% endif %}
 					{% if image.setCount != null %}
+					<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
 						{% if image.story == null %}
-							<a href="set.php?set={{image.set}}&category={{image.category}}"  class="link category-link">
+							<a href="set.php?set={{image.set}}&category={{image.category}}" class="link">
+								<div class="card w-100 category-card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+									<div class="card-body">
+										<h1 class="category-card-header">
+											{{ image.set }}
+										</h1>
+									</div>
+								</div>
+							</a>
 						{% else %}
 							<a href="story.php?set={{image.set}}&category={{image.category}}"  class="link category-link">
+								<img src="{{image.folder}}/thumbnail.jpg" class="img-responsive" />
+								<div class="caption">{{ image.set }}</div>
+							</a>
 						{% endif %}
-					<!-- <a href="set.php?set={{image.set}}&category={{image.category}}" class="link"> -->
-						<img src="{{image.folder}}/thumbnail.jpg" class="img-responsive" />
-						<div class="setCount">{{ image.setCount }} <i class="fa fa-picture-o" aria-hidden="true"></i> </div>
-						<div class="caption">{{ image.set }}</div>
-					</a>
+					</div>	
 					{% endif %}
 				{% endif %}
 			{% endfor %}

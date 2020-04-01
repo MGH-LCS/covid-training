@@ -1,402 +1,262 @@
 {
     "images": [
+
         {
-            "_id": "donning-ppe",
-            "folder": "assets/images/categories/perioperative-care",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+            "_id": "advanced-ppe"
+          , "folder": "assets/images/categories/advanced-ppe"
+          , "title": "Donning PPE"
+          , "caption": ""
+          , "category": "Advanced PPE"
+          , "youtube": "jeBhl1ApFT8"
+          , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+          , "viewOnCategories": true
         },
-        {
-            "_id": "n95-fit",
-            "folder": "photos/2014/08-August/2014-08-08/joanne",
-            "title": "Optimizing N-95 Fit",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "LxljPRCvg1I",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/e/ea/Optimizing_N-95_Fit.pdf",
-            "viewOnCategories": false
-        },
-        {
-            "_id": "doffing-ppe",
-            "folder": "photos/2014/08-August/2014-08-08/molly",
-            "title": "Doffing PPE",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "u2fT_NV6VlA",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/2/24/Doffing.pdf",
-            "viewOnCategories": false
+
+        {   
+            "_id": "perioperative-care-set"
+            , "folder": "assets/images/categories/perioperative-care"
+            , "title": ""
+            , "caption":""
+            , "category": "Anesthesia"
+            , "viewOnCategories": true
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "setCount": "7"
+            , "story" : false
+            , "storyIntro" : ""
+            , "hideOnSet" : true
         },
 
         {
-            "_id": "Operating-Room-Intubation",
-            "folder": "photos/2014/08-August/2014-08-08/molly",
-            "title": "Operating Room Intubation",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "zsQgfUC_RBg",
-            "document": "",
-            "viewOnCategories": false
-        },
-
-
-        {
-            "_id": "Mgmt-Already-Intubated",
-            "folder": "photos/2014/08-August/2014-08-08/molly",
-            "title": "Mgmt for 'Already Intubated'",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "C6z-vdg_PpQ",
-            "document": "",
-            "viewOnCategories": false
+              "_id": "Alongside-Set-Sample"
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Sample to a video"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "C6z-vdg_PpQ"
+            , "document": ""
+            , "set":"None"
+            , "partOfSet": false
+            , "viewOnCategories": false
         },
 
         {
-            "_id": "Operating-Room-Extubation",
-            "folder": "photos/2014/08-August/2014-08-08/molly",
-            "title": "Operating Room Extubation",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "jpFUknwXWa4",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf",
-            "viewOnCategories": false
+             "_id": "donning-ppe"
+            , "folder": "assets/images/categories/perioperative-care"
+            , "title": "Donning PPE"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
+        },
+        {
+              "_id": "n95-fit"
+            , "folder": "photos/2014/08-August/2014-08-08/joanne"
+            , "title": "Optimizing N-95 Fit"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "LxljPRCvg1I"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/e/ea/Optimizing_N-95_Fit.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
+        },
+        {
+              "_id": "doffing-ppe"
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Doffing PPE"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "u2fT_NV6VlA"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/2/24/Doffing.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
         },
 
         {
-            "_id": "Extubation-Additional-Method",
-            "folder": "photos/2014/08-August/2014-08-08/molly",
-            "title": "Extubation (Additional Method)",
-            "caption": "",
-            "category": "Perioperative Care",
-            "youtube": "J_KVOlpwtEA",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf",
-            "viewOnCategories": false
-        },
-
-
-        {
-            "_id": "advanced-ppe",
-            "folder": "assets/images/categories/advanced-ppe",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "Advanced PPE",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-        {
-            "_id": "anesthesia",
-            "folder": "assets/images/categories/anesthesia",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "Anesthesia",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-        {
-            "_id": "critical-care-sample",
-            "folder": "assets/images/categories/critical-care",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "Critical Care",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-        {
-            "_id": "ecmo-sample",
-            "folder": "assets/images/categories/ecmo",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "ECMO",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-
-
-        {
-            "_id": "emergency-medicine-sample",
-            "folder": "assets/images/categories/emergency-medicine",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "Emergency Medicine",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+              "_id": "Operating-Room-Intubation"
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Operating Room Intubation"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "zsQgfUC_RBg"
+            , "document": ""
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
         },
 
 
         {
-            "_id": "ems-transport-sample",
-            "folder": "assets/images/categories/ems-transport",
-            "title": "Donning PPE",
-            "caption": "",
-            "category": "EMS Transport",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+              "_id": "Mgmt-Already-Intubated"
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Mgmt for 'Already Intubated'"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "C6z-vdg_PpQ"
+            , "document": ""
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
         },
 
         {
-            "_id": "ethics-sample",
-            "folder": "assets/images/categories/ethics",
-            "title": "Ethics Video",
-            "caption": "",
-            "category": "Ethics",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-
-        {
-            "_id": "medical-education-sample",
-            "folder": "assets/images/categories/medical-education",
-            "title": "medical-education Video",
-            "caption": "",
-            "category": "Medical Education",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+              "_id": "Operating-Room-Extubation"
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Operating Room Extubation"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "jpFUknwXWa4"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
         },
 
         {
-            "_id": "nursing-sample",
-            "folder": "assets/images/categories/nursing",
-            "title": "nursing Video",
-            "caption": "",
-            "category": "Nursing",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+              "_id": "Extubation-Additional-Method"
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Extubation (Additional Method)"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "youtube": "J_KVOlpwtEA"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
         },
 
         {
-            "_id": "psychiatry-sample",
-            "folder": "assets/images/categories/psychiatry",
-            "title": "psychiatry Video",
-            "caption": "",
-            "category": "Psychiatry",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+              "_id": "critical-care-sample"
+            , "folder": "assets/images/categories/critical-care"
+            , "title": "Donning PPE"
+            , "caption": ""
+            , "category": "Critical Care"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
 
-
         {
-            "_id": "surgery-sample",
-            "folder": "assets/images/categories/surgery",
-            "title": "surgery Video",
-            "caption": "",
-            "category": "Surgery",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-
-        {
-            "_id": "ultrasound-sample",
-            "folder": "assets/images/categories/ultrasound",
-            "title": "ultrasound Video",
-            "caption": "",
-            "category": "Ultrasound",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
-        },
-
-
-        {
-            "_id": "ventilators-sample",
-            "folder": "assets/images/categories/ventilators",
-            "title": "ventilators Video",
-            "caption": "",
-            "category": "Ventilators",
-            "youtube": "jeBhl1ApFT8",
-            "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf",
-            "viewOnCategories": true
+              "_id": "ecmo-sample"
+            , "folder": "assets/images/categories/ecmo"
+            , "title": "Donning PPE"
+            , "caption": ""
+            , "category": "ECMO"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
 
 
 
         {
-            "_id": "george-1",
-            "folder": "photos/2017/05-May/2017-05-10/george-1",
-            "title": "George",
-            "caption": "2017",
-            "category": "Old",
-            "viewOnCategories": false,
-            "set": "George Summers Jr",
-            "partOfSet": true,
-            "setCount": "6",
-            "story": true,
-            "hideTitles": true
+              "_id": "emergency-medicine-sample"
+            , "folder": "assets/images/categories/emergency-medicine"
+            , "title": "Donning PPE"
+            , "caption": ""
+            , "category": "Emergency Medicine"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
+
         {
-            "_id": "george-2",
-            "folder": "photos/2017/05-May/2017-05-10/george-2",
-            "title": "George",
-            "caption": "2017",
-            "category": "Old",
-            "viewOnCategories": false,
-            "set": "George Summers Jr",
-            "partOfSet": true
+              "_id": "ems-transport-sample"
+            , "folder": "assets/images/categories/ems-transport"
+            , "title": "Donning PPE"
+            , "caption": ""
+            , "category": "EMS Transport"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
         {
-            "_id": "bob-lg-1",
-            "folder": "photos/2017/05-May/2017-05-06/bob-1",
-            "title": "Robert Siegelman",
-            "caption": "2017",
-            "category": "Old",
-            "viewOnCategories": false
+              "_id": "ethics-sample"
+            , "folder": "assets/images/categories/ethics"
+            , "title": "Ethics Video"
+            , "caption": ""
+            , "category": "Ethics"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
+
         {
-            "_id": "esther-1",
-            "folder": "photos/2017/06-June/2017-06-13/esther-1",
-            "title": "Esther",
-            "caption": "2017",
-            "category": "Portraits",
-            "viewOnCategories": false,
-            "set": "Esther",
-            "partOfSet": true,
-            "setCount": "2"
+              "_id": "medical-education-sample"
+            , "folder": "assets/images/categories/medical-education"
+            , "title": "medical-education Video"
+            , "caption": ""
+            , "category": "Medical Education"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
         {
-            "_id": "esther-2",
-            "folder": "photos/2017/06-June/2017-06-13/esther-2",
-            "title": "Esther",
-            "caption": "2017",
-            "category": "Portraits",
-            "viewOnCategories": true,
-            "set": "Esther",
-            "partOfSet": true
+              "_id": "nursing-sample"
+            , "folder": "assets/images/categories/nursing"
+            , "title": "nursing Video"
+            , "caption": ""
+            , "category": "Nursing"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
         {
-            "_id": "jpos-1",
-            "folder": "photos/2017/09-September/2017-09-23/jpos-1",
-            "title": "",
-            "caption": "",
-            "caption": "2017",
-            "category": "JP Open Studios 2017",
-            "viewOnCategories": false,
-            "set": "Jamaica Plain Open Studios 2017",
-            "partOfSet": true
+              "_id": "psychiatry-sample"
+            , "folder": "assets/images/categories/psychiatry"
+            , "title": "psychiatry Video"
+            , "caption": ""
+            , "category": "Psychiatry"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
+
         {
-            "_id": "jpos-2",
-            "folder": "photos/2017/09-September/2017-09-23/jpos-2",
-            "title": "",
-            "caption": "",
-            "caption": "2017",
-            "category": "JP Open Studios 2017",
-            "viewOnCategories": false,
-            "set": "Jamaica Plain Open Studios 2017",
-            "partOfSet": true
+              "_id": "surgery-sample"
+            , "folder": "assets/images/categories/surgery"
+            , "title": "surgery Video"
+            , "caption": ""
+            , "category": "Surgery"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
+
         {
-            "_id": "jpos-32",
-            "folder": "photos/2017/09-September/2017-09-23/jpos-32",
-            "title": "",
-            "caption": "",
-            "caption": "2017",
-            "category": "JP Open Studios",
-            "viewOnCategories": true,
-            "set": "Jamaica Plain Open Studios 2017",
-            "partOfSet": true,
-            "setCount": "52",
-            "story": true,
-            "storyIntro": "<p>For two days in September I opened my home studio for Jamaica Plain Open Studios. Jameson & Thompson Picture Framers (http://www.jamesonandthompson.com) let me borrow a gorgeous frame. I had a chance to photograph many of the people that visited my studio. I want to thank everyone that particpated.</p>"
+              "_id": "ultrasound-sample"
+            , "folder": "assets/images/categories/ultrasound"
+            , "title": "ultrasound Video"
+            , "caption": ""
+            , "category": "Ultrasound"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         },
+
+
         {
-            "_id": "jpos-33",
-            "folder": "photos/2017/09-September/2017-09-23/jpos-33",
-            "title": "",
-            "caption": "",
-            "caption": "2017",
-            "category": "JP Open Studios 2017",
-            "viewOnCategories": false,
-            "set": "Jamaica Plain Open Studios 2017",
-            "partOfSet": true
-        },
-        {
-            "_id": "jpos-52",
-            "folder": "photos/2017/09-September/2017-09-23/jpos-52",
-            "title": "",
-            "caption": "",
-            "caption": "2017",
-            "category": "JP Open Studios 2017",
-            "viewOnCategories": false,
-            "set": "Jamaica Plain Open Studios 2017",
-            "partOfSet": true
-        },
-        {
-            "_id": "everything",
-            "folder": "photos/2017/01-January/2017-01-07/flower",
-            "title": "Everything",
-            "caption": "2017",
-            "category": "Flowers",
-            "viewOnCategories": true
-        },
-        {
-            "_id": "ben-1",
-            "folder": "photos/2017/03-March/2017-03-12/ben-1",
-            "title": "Ben and Andrew",
-            "caption": "2017",
-            "category": "Portraits",
-            "viewOnCategories": false
-        },
-        {
-            "_id": "zoe-1",
-            "folder": "photos/2017/02-February/2017-02-22/zoe-1",
-            "title": "Zoe and Stanley",
-            "caption": "2017",
-            "category": "Pets",
-            "viewOnCategories": true,
-            "set": "Zoe and Stanley",
-            "partOfSet": true,
-            "setCount": "4",
-            "story": true,
-            "hideTitles": true
-        },
-        {
-            "_id": "zoe-3",
-            "folder": "photos/2017/02-February/2017-02-22/zoe-3",
-            "title": "Zoe and Stanley",
-            "caption": "2017",
-            "category": "Pets",
-            "viewOnCategories": false,
-            "set": "Zoe and Stanley",
-            "partOfSet": true
-        },
-        {
-            "_id": "zoe-4",
-            "folder": "photos/2017/02-February/2017-02-22/zoe-4",
-            "title": "Zoe and Stanley",
-            "caption": "2017",
-            "category": "Pets",
-            "viewOnCategories": false,
-            "set": "Zoe and Stanley",
-            "partOfSet": true
-        },
-        {
-            "_id": "zoe-5",
-            "folder": "photos/2017/02-February/2017-02-22/zoe-5",
-            "title": "Zoe and Stanley",
-            "caption": "2017",
-            "category": "Pets",
-            "viewOnCategories": false,
-            "set": "Zoe and Stanley",
-            "partOfSet": true
+              "_id": "ventilators-sample"
+            , "folder": "assets/images/categories/ventilators"
+            , "title": "ventilators Video"
+            , "caption": ""
+            , "category": "Ventilators"
+            , "youtube": "jeBhl1ApFT8"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
+            , "viewOnCategories": true
         }
+
     ]
 }

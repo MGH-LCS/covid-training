@@ -16,52 +16,44 @@
 		</ol> 
     </nav>
 
-    <div class="jumbotron jumbotron-story">
-		<div class="container">
-			<h1>{{setTitle}}</h1>
-			{% for image in images %}
-				{% if image.storyIntro != null %}
-					<small>{{image.storyIntro|raw}}</small>
-				{% endif %}
-			{% endfor %}
- 		</div><!-- .container -->
-	</div><!-- .jumbotron -->
-	{% for image in images %}
-	{% if image.hide != true %}
-	
-		<div class="section">
-			<div class="container">
-				<div class="row">
+	<div class="container">
+		<div class="row">
+
+		{% for image in images %}
+			{% if image.hideOnStory != true %}
 				
-					<div class="col-sm-10 col-sm-offset-1">
-						
-						<img src="{{image.folder}}/photo.jpg" class="img-responsive bordered" />
-						<br/>
-						{% if hideSetTitles == false %}
-							<h5>{{image.title}}</h5>
+				<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
+					<a href="photo.php?photo={{image._id}}" >
+						{% if image.youtube == null %}
+							<img src="{{image.folder}}/thumbnail.jpg" class="img-fluid" />
+						{% else %}
+							<img src="https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg" class="img-fluid" />
 						{% endif %}
-						{{image.caption|raw}}
-
-					</div><!-- .card -->
+					</a>
+					<div class="caption mt-3"><h4>{{ image.title }}</h4></div>
+						{% if image.document != null %}
+							<div class="document"><a href="{{image.document}}" target="_blank"> Summary Document</a></div>
+						{% endif %}
 				
-				</div><!-- .row -->
-			</div><!-- .container -->
-		</div><!-- .section -->
+				</div><!-- .card -->
 
-		{% if image.copy != null %}
-			<div class="section section-copy">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1">
-						{{image.copy|raw}}
-						</div><!-- .col -->
-					</div><!-- .row -->
-			</div><!-- .container -->
-		</div><!-- .section -->
-		{% endif %}
+				{% if image.copy != null %}
+					<div class="section section-copy">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-10 col-sm-offset-1">
+								{{image.copy|raw}}
+								</div><!-- .col -->
+							</div><!-- .row -->
+					</div><!-- .container -->
+				</div><!-- .section -->
+				{% endif %}
 
-	{% endif %}
-	{% endfor %}
+			{% endif %}
+		{% endfor %}
+
+	</div><!-- .row -->
+</div><!-- .container -->
 
 
 	{% include 'common/footer.html' %}

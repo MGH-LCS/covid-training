@@ -7023,10 +7023,12 @@ a.text-dark:hover, a.text-dark:focus {
 a.link:hover {
   text-decoration: none; }
 
-.categories-card {
+.categories-card,
+.category-card {
   min-height: 200px; }
 
-.categories-card-header {
+.categories-card-header,
+.category-card-header {
   color: white;
   font-weight: 600; }
 

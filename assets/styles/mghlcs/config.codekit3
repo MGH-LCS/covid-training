@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "31934",
 "files": {
-	"/css/mghlcs.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/mghlcs-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/scss/_breadcrumbs.scss": {
 		"aP": 0,
 		"bl": 0,
