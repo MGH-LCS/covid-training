@@ -26,6 +26,7 @@
 							<a href="photo.php?photo={{image._id}}" class="link">
 							{% if image.youtube == null %}
 								<img src="{{image.folder}}/thumbnail.jpg" class="img-fluid" />
+								<div class="caption mt-3"><h4>{{ image.title }}</h4></div>
 							{% else %}
 								<div class="card w-100 category-card category-card-youtube" data-content="{{image.set}}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">
 									<div class="card-body">
@@ -36,7 +37,6 @@
 								</div>
 							{% endif %}
 							</a>
-							<div class="caption mt-3"><h4>{{ image.title }}</h4></div>
 							{% if image.document != null %}
 								<div class="document mt-1"><a href="{{image.document}}" target="_blank"> Summary Document</a></div>
 							{% endif %}
