@@ -3,6 +3,7 @@
 
         {
             "_id": "advanced-ppe"
+          , "type": "video" 
           , "folder": "assets/images/categories/advanced-ppe"
           , "title": "Donning PPE"
           , "caption": ""
@@ -14,6 +15,7 @@
 
         {   
           "_id": "anesthesia-main-card"
+          , "type": "video" 
           , "folder": "assets/images/categories/anesthesia"
           , "title": ""
           , "caption":""
@@ -27,6 +29,7 @@
 
         {   
             "_id": "perioperative-care-set"
+            , "type": "set" 
             , "folder": "assets/images/categories/perioperative-care"
             , "title": ""
             , "caption":""
@@ -42,6 +45,7 @@
 
         {
               "_id": "Alongside-Set-Sample"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/molly"
             , "title": "Sample to a video"
             , "caption": "<h1>Lorem ipsum dolor sit amet</h1> <h3>consectetuer adipiscing elit.</h4> Sed eleifend ultricies nisl. Sed mollis, odio dapibus commodo suscipit, nisl massa tempor mi, quis lobortis nulla elit eget pede. Cras mollis nunc eu lectus rutrum tempus. Aenean non nibh ut ligula venenatis dapibus. Sed id felis. Aenean tellus. Cras justo lacus, cursus et, semper at, tempus eu, erat. Aenean ornare. Nulla sollicitudin eros eu massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Quisque viverra nunc eget dui. Etiam iaculis tincidunt sapien. Aliquam erat volutpat. Mauris sagittis mi suscipit est. Maecenas adipiscing erat vestibulum purus. In scelerisque facilisis risus. In ac erat. Etiam nulla. Donec ut arcu sit amet nisi sollicitudin gravida."
@@ -54,6 +58,7 @@
 
         {
              "_id": "donning-ppe"
+            , "type": "video" 
             , "folder": "assets/images/categories/perioperative-care"
             , "title": "Donning PPE"
             , "caption": ""
@@ -66,6 +71,7 @@
         },
         {
               "_id": "n95-fit"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/joanne"
             , "title": "Optimizing N-95 Fit"
             , "caption": ""
@@ -78,6 +84,7 @@
         },
         {
               "_id": "doffing-ppe"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/molly"
             , "title": "Doffing PPE"
             , "caption": ""
@@ -91,6 +98,7 @@
 
         {
               "_id": "Operating-Room-Intubation"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/molly"
             , "title": "Operating Room Intubation"
             , "caption": ""
@@ -105,6 +113,7 @@
 
         {
               "_id": "Mgmt-Already-Intubated"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/molly"
             , "title": "Mgmt for 'Already Intubated'"
             , "caption": ""
@@ -118,6 +127,7 @@
 
         {
               "_id": "Operating-Room-Extubation"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/molly"
             , "title": "Operating Room Extubation"
             , "caption": ""
@@ -131,6 +141,7 @@
 
         {
               "_id": "Extubation-Additional-Method"
+            , "type": "video" 
             , "folder": "photos/2014/08-August/2014-08-08/molly"
             , "title": "Extubation (Additional Method)"
             , "caption": ""
@@ -142,19 +153,317 @@
             , "viewOnCategories": false
         },
 
-        {
-              "_id": "critical-care-sample"
-            , "folder": "assets/images/categories/critical-care"
-            , "title": "Donning PPE"
-            , "caption": ""
-            , "category": "Critical Care"
-            , "youtube": "jeBhl1ApFT8"
-            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
-        },
+
+        {   
+          "_id": "critical-care-main-card"
+        , "type": "video" 
+          , "folder": "assets/images/categories/critical-care"
+          , "title": ""
+          , "caption":""
+          , "category": "Critical Care"
+          , "viewOnCategories": true
+          , "hideOnCategory": true
+          , "story" : false
+          , "storyIntro" : ""
+          , "hideOnSet" : true
+      },
+
+      {   
+        "_id": "critical-care-mgh-guidelines-set"
+        , "type": "video" 
+        , "folder": "assets/images/categories/perioperative-care"
+        , "title": ""
+        , "caption":""
+        , "category": "Critical Care"
+        , "viewOnCategories": false
+        , "set":"MGH Guidelines"
+        , "partOfSet": true
+        , "setCount": "7"
+        , "story" : false
+        , "storyIntro" : ""
+        , "hideOnSet" : true
+    },
+
+    {
+          "_id": "critical-care-mgh-guidelines-critically-ill"
+        , "type": "document" 
+        , "folder": ""
+        , "title": "Treatment Guide for Critically Ill Patients with COVID-19"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://ether.mgh.harvard.edu/wiki/images/9/91/MGH_Critical_Care_of_COVID-19_Protocol_as_of_3-19-20.pdf"
+        , "set":"MGH Guidelines"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+          "_id": "critical-care-mgh-guidelines-fast"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "MGH Department of Medicine (includes “Fast Literature Updates”)"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://www.massgeneral.org/news/coronavirus/treatment-guidances"
+        , "set":"MGH Guidelines"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+          "_id": "critical-care-mgh-guidelines-treadwell"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Treadwell Library COVID guide"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://libguides.massgeneral.org/covid19"
+        , "set":"MGH Guidelines"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+
+    {   
+        "_id": "critical-care-daccpm-lectures"
+        , "type": "set" 
+        , "folder": "assets/images/categories/perioperative-care"
+        , "title": ""
+        , "caption":""
+        , "category": "Critical Care"
+        , "viewOnCategories": false
+        , "set":"DACCPM Lectures"
+        , "partOfSet": true
+        , "setCount": "7"
+        , "story" : false
+        , "storyIntro" : ""
+        , "hideOnSet" : true
+    },
+
+    {
+        "_id": "critical-care-daccpm-lectures-basic-vent"
+        , "type": "document" 
+        , "folder": ""
+        , "title": "Basic Ventilation Modes (Alex Kuo)"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://vimeo.com/402641363/ed374acf21"
+        , "set":"DACCPM Lectures"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-daccpm-lectures-ards"
+        , "type": "video" 
+        , "folder": ""
+        , "title": "ARDS Management with COVID (Aranya Bagchi)"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": "IWo9WE97H9w"
+        , "document": ""
+        , "set":"DACCPM Lectures"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+
+
+    {   
+        "_id": "critical-care-society-help"
+        , "type": "set" 
+        , "folder": "assets/images/categories/perioperative-care"
+        , "title": ""
+        , "caption":""
+        , "category": "Critical Care"
+        , "viewOnCategories": false
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "setCount": "7"
+        , "story" : false
+        , "storyIntro" : ""
+        , "hideOnSet" : true
+    },
+
+    {
+        "_id": "critical-care-society-help-one"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "ASA Critical Care Primers"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://www.asahq.org/in-the-spotlight/coronavirus-covid-19-information/caesar?_ga=2.232026839.957188551.1585592902-1935300592.1568648828&ct=2f5c370cec3a9e1a83d466d718872cd3f9e1910b0b046b3a2222126b39fbde9ac1bd687a587015ba15c4228facf0f1275ba4b579fe497b6de49c4a2df5199630"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-society-help-two"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "SCCM: ICU Primers"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://covid19.sccm.org/nonicu.htm"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-society-help-three"
+        , "type": "document" 
+        , "folder": ""
+        , "title": "SCCM: Covid Guidelines"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://ether.mgh.harvard.edu/wiki/images/0/0e/Surviving_Sepsis_Campaign_Guidelines_on_the.95707.pdf"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-society-help-four"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Pulm CCM"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://pulmccm.org/"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-society-help-five"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "EMCrit"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://emcrit.org/ibcc/covid19/"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-society-help-six"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "JAMA"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://jamanetwork.com/journals/jama/pages/coronavirus-alert"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-society-help-seven"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "NEJM"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://www.nejm.org/coronavirus"
+        , "set":"Society Help"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+
+    {   
+        "_id": "critical-care-other-hospitals"
+        , "type": "set" 
+        , "folder": "assets/images/categories/perioperative-care"
+        , "title": ""
+        , "caption":""
+        , "category": "Critical Care"
+        , "viewOnCategories": false
+        , "set":"Other Hosptials"
+        , "partOfSet": true
+        , "setCount": "7"
+        , "story" : false
+        , "storyIntro" : ""
+        , "hideOnSet" : true
+    },
+
+    {
+        "_id": "critical-care-other-hosplitals-one"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Brigham & Women’s"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://covidprotocols.org/"
+        , "set":"Other Hosptials"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-other-hosplitals-two"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Columbia"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://nyp.app.box.com/v/CUMC-Anes-COVID-Shared/"
+        , "set":"Other Hosptials"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-other-hosplitals-three"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Mt. Sinai"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://www.mssurg.com/covid"
+        , "set":"Other Hosptials"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-other-hosplitals-four"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Johns Hopkins"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://coronavirus.jhu.edu/map.html"
+        , "set":"Other Hosptials"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
 
         {
               "_id": "ecmo-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/ecmo"
             , "title": "Donning PPE"
             , "caption": ""
@@ -168,6 +477,7 @@
 
         {
               "_id": "emergency-medicine-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/emergency-medicine"
             , "title": "Donning PPE"
             , "caption": ""
@@ -180,6 +490,7 @@
 
         {
               "_id": "ems-transport-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/ems-transport"
             , "title": "Donning PPE"
             , "caption": ""
@@ -191,6 +502,7 @@
 
         {
               "_id": "ethics-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/ethics"
             , "title": "Ethics Video"
             , "caption": ""
@@ -203,6 +515,7 @@
 
         {
               "_id": "medical-education-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/medical-education"
             , "title": "medical-education Video"
             , "caption": ""
@@ -214,6 +527,7 @@
 
         {
               "_id": "nursing-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/nursing"
             , "title": "nursing Video"
             , "caption": ""
@@ -225,6 +539,7 @@
 
         {
               "_id": "psychiatry-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/psychiatry"
             , "title": "psychiatry Video"
             , "caption": ""
@@ -237,6 +552,7 @@
 
         {
               "_id": "surgery-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/surgery"
             , "title": "surgery Video"
             , "caption": ""
@@ -249,6 +565,7 @@
 
         {
               "_id": "ultrasound-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/ultrasound"
             , "title": "ultrasound Video"
             , "caption": ""
@@ -261,6 +578,7 @@
 
         {
               "_id": "ventilators-sample"
+            , "type": "video" 
             , "folder": "assets/images/categories/ventilators"
             , "title": "ventilators Video"
             , "caption": ""

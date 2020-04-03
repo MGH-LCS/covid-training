@@ -24,10 +24,25 @@
 					{% if image.partOfSet == false %}
 						<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
 							<a href="photo.php?photo={{image._id}}" class="link">
-							{% if image.youtube == null %}
+							{% if image.type != 'video' and image.type != 'document'  and  image.type != 'link' %}
 								<img src="{{image.folder}}/thumbnail.jpg" class="img-fluid" />
 								<div class="caption mt-3"><h4>{{ image.title }}</h4></div>
-							{% else %}
+							{% endif %}
+							{% if image.type == 'document' or image.type == "link" %}
+								<div class="card w-100 category-card category-card-document" data-content="{{image.set}}">
+									<div class="card-body" style="color: white;">
+										{% if image.type == 'document' %}
+											<i class="fas fa-file-download cat-header"></i> 
+										{% else %}
+											<i class="fas fa-external-link cat-header"></i> 
+										{% endif %}
+										<h1 class="category-card-header">
+											{{ image.title }}
+										</h1>
+									</div>
+								</div>
+							{% endif %}
+							{% if image.type == 'video' %}
 								<div class="card w-100 category-card category-card-youtube" data-content="{{image.set}}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">
 									<div class="card-body" style="color: white;">
 										<i class="fab fa-youtube cat-header"></i>
@@ -48,7 +63,7 @@
 					<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
 						{% if image.story == null %}
 							<a href="set.php?set={{image.set}}&category={{image.category}}" class="link">
-								<div class="card w-100 category-card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+								<div class="card w-100 category-card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail-cmyk.png')">
 									<div class="card-body" style="color: white;">
 										<i class="fal fa-layer-group cat-header"></i>
 										<h1 class="category-card-header">
