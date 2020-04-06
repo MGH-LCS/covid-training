@@ -7031,7 +7031,8 @@ a.link:hover {
 .category-card-header {
   text-align: left;
   color: white;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 2.2rem !important; }
 
 .cat-header {
   float: right;
@@ -7044,6 +7045,16 @@ a.link:hover {
 
 .category-card-document {
   background-color: black; }
+
+@media (max-width: 575.98px) {
+  .categories-card,
+  .category-card {
+    min-height: 100px; }
+    .categories-card .categories-card-header,
+    .categories-card .category-card-header,
+    .category-card .categories-card-header,
+    .category-card .category-card-header {
+      font-size: 1.5rem; } }
 
 .navbar-breadcrumbs {
   height: 36px;
@@ -7120,7 +7131,7 @@ footer span {
   color: #ffffff; }
 
 .jumbotron.jumbotron-categories {
-  height: 400px;
+  height: 300px;
   background-image: url("../../../../assets/images/jumbotron/background-coronavirus.jpg");
   background-size: cover;
   background-position: top;
@@ -7157,8 +7168,10 @@ footer span {
     font-size: 16px; }
 
 @media (max-width: 575.98px) {
-  .jumbotron.jumbotron-categories h1 {
-    font-size: 35px; } }
+  .jumbotron.jumbotron-categories {
+    height: 180px; }
+    .jumbotron.jumbotron-categories h1 {
+      font-size: 35px; } }
 
 .session p {
   font-size: 16px;
