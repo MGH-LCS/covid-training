@@ -166,6 +166,21 @@
             , "viewOnCategories": false
         },
 
+        {
+                "_id": "patient-transport-one"
+            , "type": "video" 
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "Patient Transport for COVID-19"
+            , "caption": "This represents our current best practices for transport of the intubated patient who is COVID-19 positive or under investigation (3-30-20). The basic principles include limiting spread from the patient, providing necessary care during transport, and protecting the transport team."
+            , "category": "Anesthesia"
+            , "youtube": "XcZhUO6wbnI"
+            , "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
+        },
+
+
 
         {   
           "_id": "critical-care-main-card"
