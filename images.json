@@ -2,8 +2,8 @@
     "images": [
 
         {
-            "_id": "advanced-ppe"
-          , "type": "video" 
+            "_id": "advanced-ppe-main-card"
+          , "type": "set" 
           , "folder": "assets/images/categories/advanced-ppe"
           , "title": "Donning PPE"
           , "caption": ""
@@ -11,11 +11,24 @@
           , "youtube": "jeBhl1ApFT8"
           , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
           , "viewOnCategories": true
+          , "hideOnCategory": true
         },
+
+        {
+            "_id": "advanced-pp-video-1"
+           , "type": "video" 
+           , "folder": "assets/images/categories/advanced-ppe"
+           , "title": "Air Purifying Respirators (APR)"
+           , "caption": ""
+           , "category": "Advanced PPE"
+           , "youtube": "mcirFX8hCI4"
+           , "document": ""
+           , "viewOnCategories": false
+       },
 
         {   
           "_id": "anesthesia-main-card"
-          , "type": "video" 
+          , "type": "" 
           , "folder": "assets/images/categories/anesthesia"
           , "title": ""
           , "caption":""
