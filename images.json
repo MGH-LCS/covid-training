@@ -57,19 +57,6 @@
         },
 
         {
-              "_id": "Alongside-Set-Sample"
-            , "type": "video" 
-            , "folder": "photos/2014/08-August/2014-08-08/molly"
-            , "title": "Sample to a video"
-            , "caption": "<h1>Lorem ipsum dolor sit amet</h1> <h3>consectetuer adipiscing elit.</h4> Sed eleifend ultricies nisl. Sed mollis, odio dapibus commodo suscipit, nisl massa tempor mi, quis lobortis nulla elit eget pede. Cras mollis nunc eu lectus rutrum tempus. Aenean non nibh ut ligula venenatis dapibus. Sed id felis. Aenean tellus. Cras justo lacus, cursus et, semper at, tempus eu, erat. Aenean ornare. Nulla sollicitudin eros eu massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Quisque viverra nunc eget dui. Etiam iaculis tincidunt sapien. Aliquam erat volutpat. Mauris sagittis mi suscipit est. Maecenas adipiscing erat vestibulum purus. In scelerisque facilisis risus. In ac erat. Etiam nulla. Donec ut arcu sit amet nisi sollicitudin gravida."
-            , "category": "Anesthesia"
-            , "youtube": "C6z-vdg_PpQ"
-            , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "partOfSet": false
-            , "viewOnCategories": false
-        },
-
-        {
              "_id": "donning-ppe"
             , "type": "video" 
             , "folder": "assets/images/categories/perioperative-care"
@@ -180,6 +167,33 @@
             , "viewOnCategories": false
         },
 
+        {
+            "_id": "soap-one"
+            , "type": "link" 
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "SOAP: Obstetric Anesthesia Considerations"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "document": "https://soap.org/wp-content/uploads/2020/03/SOAP_COVID-19_Infographic_032620.pdf"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
+        },
+
+        {
+            "_id": "soap-two"
+            , "type": "link" 
+            , "folder": "photos/2014/08-August/2014-08-08/molly"
+            , "title": "SOAP: COVID-19 Toolkit"
+            , "caption": ""
+            , "category": "Anesthesia"
+            , "document": "https://soap.org/education/provider-education/expert-summaries/interim-considerations-for-obstetric-anesthesia-care-related-to-covid19/"
+            , "set":"Perioperative Care"
+            , "partOfSet": true
+            , "viewOnCategories": false
+        },
+
+        
 
 
         {   
@@ -197,8 +211,53 @@
       },
 
       {   
+            "_id": "critical-care-covid-roles-set"
+            , "type": "" 
+            , "folder": "assets/images/categories/perioperative-care"
+            , "title": ""
+            , "caption":""
+            , "category": "Critical Care"
+            , "viewOnCategories": false
+            , "set":"Covid Specific Roles"
+            , "partOfSet": true
+            , "setCount": "7"
+            , "story" : false
+            , "storyIntro" : ""
+            , "hideOnSet" : true
+        },
+
+
+        {
+            "_id": "critical-care-covid-roles-ricu"
+        , "type": "document" 
+        , "folder": ""
+        , "title": "RICU Guidelines"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://ether.mgh.harvard.edu/wiki/images/5/5e/RICU_Guidelines_for_COVID.pdf"
+        , "set":"Covid Specific Roles"
+        , "partOfSet": true
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-covid-roles-cobra"
+    , "type": "document" 
+    , "folder": ""
+    , "title": "COBRA Team Info"
+    , "caption": ""
+    , "category": "Critical Care"
+    , "youtube": ""
+    , "document": "https://ether.mgh.harvard.edu/wiki/images/a/a4/COBRA_Team.pdf"
+    , "set":"Covid Specific Roles"
+    , "partOfSet": true
+    , "viewOnCategories": false
+},
+
+      {   
         "_id": "critical-care-mgh-guidelines-set"
-        , "type": "video" 
+        , "type": "" 
         , "folder": "assets/images/categories/perioperative-care"
         , "title": ""
         , "caption":""
@@ -416,6 +475,72 @@
     },
 
 
+    {
+            "_id": "critical-care-multimedia-1"
+        , "type": "document" 
+        , "folder": "photos/2014/08-August/2014-08-08/molly"
+        , "title": "ICU COVID Management"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": "C6z-vdg_PpQ"
+        , "document": "https://ether.mgh.harvard.edu/wiki/images/c/ca/Anesthesia_Lecture_COVIDICU.pdf"
+        , "partOfSet": false
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-multimedia-2"
+        , "type": "link" 
+        , "folder": ""
+        , "title": "Basic ICU Ventilation Modes"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": ""
+        , "document": "https://player.vimeo.com/video/402641363?dnt=1&app_id=122963"
+        , "partOfSet": false
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-multimedia-3"
+        , "type": "video" 
+        , "folder": ""
+        , "title": "COVID in Critically Ill "
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": "jrtTqz3LLXQ"
+        , "document": ""
+        , "partOfSet": false
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-multimedia-4"
+        , "type": "video" 
+        , "folder": ""
+        , "title": "ARDS Management with COVID"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": "IWo9WE97H9w"
+        , "document": ""
+        , "partOfSet": false
+        , "viewOnCategories": false
+    },
+
+    {
+        "_id": "critical-care-multimedia-5"
+        , "type": "video" 
+        , "folder": ""
+        , "title": "MGH ICU Research Updates"
+        , "caption": ""
+        , "category": "Critical Care"
+        , "youtube": "kzaVE_KYSxc"
+        , "document": ""
+        , "partOfSet": false
+        , "viewOnCategories": false
+    },
+
+
     {   
         "_id": "critical-care-other-hospitals"
         , "type": "set" 
@@ -498,7 +623,7 @@
             , "category": "ECMO"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
 
@@ -512,7 +637,7 @@
             , "category": "Emergency Medicine"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
 
@@ -525,7 +650,7 @@
             , "category": "EMS Transport"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
         {
@@ -537,7 +662,7 @@
             , "category": "Ethics"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
 
@@ -550,7 +675,7 @@
             , "category": "Medical Education"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
         {
@@ -562,7 +687,7 @@
             , "category": "Nursing"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
         {
@@ -574,7 +699,7 @@
             , "category": "Psychiatry"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
 
@@ -587,7 +712,7 @@
             , "category": "Surgery"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
 
@@ -600,7 +725,7 @@
             , "category": "Ultrasound"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         },
 
 
@@ -613,7 +738,7 @@
             , "category": "Ventilators"
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-            , "viewOnCategories": true
+            , "viewOnCategories": false
         }
 
     ]
