@@ -29,7 +29,7 @@ $obj = json_decode($json);
 $setImages = array();
 
 foreach ($obj->{'images'} as &$image) {
-    if ($image->set == $set && $image->tags != null && in_array($tag, $image->tags)) {
+    if ($image->tags != null && in_array($tag, $image->tags)) {
         array_push($setImages, $image);
     };
 }

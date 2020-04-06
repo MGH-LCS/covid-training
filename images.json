@@ -24,7 +24,7 @@
            , "youtube": "mcirFX8hCI4"
            , "document": ""
            , "viewOnCategories": false
-           , "tags": ["PPE", "A", "B", "C"]
+           , "tags": ["PPE", "Advanced PPE"]
 
        },
 
@@ -70,7 +70,7 @@
             , "set":"Perioperative Care"
             , "partOfSet": true
             , "viewOnCategories": false
-            , "tags": ["PPE", "A", "B", "C"]
+            , "tags": ["PPE"]
         },
         {
               "_id": "n95-fit"
@@ -84,7 +84,7 @@
             , "set":"Perioperative Care"
             , "partOfSet": true
             , "viewOnCategories": false
-            , "tags": ["PPE", "A", "B", "C"]
+            , "tags": ["PPE"]
         },
         {
               "_id": "doffing-ppe"
@@ -98,7 +98,7 @@
             , "set":"Perioperative Care"
             , "partOfSet": true
             , "viewOnCategories": false
-            , "tags": ["PPE", "A", "B", "C"]
+            , "tags": ["PPE"]
         },
 
         {
