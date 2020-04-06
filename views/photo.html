@@ -66,6 +66,12 @@
 		</div><!-- .row -->
 	</div><!-- .container -->
 
+	<div class="container-fluid">
+		<div class="row">
+			Tags: {% for tag in tags %}{% if loop.index > 1 %}, {% endif %}<a href="/tag.php?tag={{tag}}">{{ tag }}</a>{% endfor %}
+		</div>
+	</div>
+
 	{% include 'common/scripts.html' %}
 	{% include 'common/tracking.html' %}
 	

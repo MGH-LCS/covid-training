@@ -1,0 +1,43 @@
+<!doctype html>
+
+<head>
+	{% include 'common/meta.html' %}
+	{% include 'common/styles.html' %}
+</head>
+<body>
+	<?php include_once("analyticstracking.php") ?>
+	{% include 'common/nav.html' with {'foo': 'bar'} %}
+
+	<div class="jumbotron jumbotron-fluid jumbotron-categories">
+		<div class="container">
+		  <h1 class="display-4">MGH COVID-19 Management</h1>
+		  <p class="lead">Quisque viverra nunc eget dui. Etiam iaculis tincidunt sapien. Aliquam erat volutpat. Mauris sagittis mi suscipit est. Maecenas adipiscing erat vestibulum purus. In scelerisque facilisis risus. In ac erat. Etiam nulla. Donec ut arcu sit amet nisi sollicitudin gravida.</p>
+		</div>
+	  </div>
+
+	<div class="container">
+
+		<div class="row">
+
+			<ul>
+				{% for tag in tags %}
+				<li>{{ tag }}</li>
+				{% endfor %}
+			</ul>
+
+			<!--{{cards}}-->
+			{% if name is empty %}
+			{% set name = "test" %}
+			{% endif %}
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	<br/>
+
+	{% include 'common/footer.html' %}
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+
+</body>
+</html>
