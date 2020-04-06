@@ -22,7 +22,7 @@
 			{% for image in images %}
 				{% if image.hideOnCategory != true %}
 					{% if image.partOfSet == false %}
-						<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
+						<div class="col-12 col-md-6 col-lg-4 text-center mb-4">
 							
 							{% if image.type != 'video' and image.type != 'document'  and  image.type != 'link' %}
 								<a href="photo.php?photo={{image._id}}" class="link">
@@ -65,7 +65,7 @@
 					
 					{% endif %}
 					{% if image.setCount != null %}
-					<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
+					<div class="col-12 col-md-6 col-lg-4 text-center mb-4">
 						{% if image.story == null %}
 							<a href="set.php?set={{image.set}}&category={{image.category}}" class="link">
 								<div class="card w-100 category-card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail-cmyk.png')">

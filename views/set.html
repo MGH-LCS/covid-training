@@ -21,7 +21,7 @@
 
 			{% for image in images %}
 				{% if image.hideOnSet != true %}
-				<div class="col-12 col-sm-6 col-lg-4 text-center mb-4">
+				<div class="col-12 col-md-6 col-lg-4 text-center mb-4">
 					
 						{% if image.type != 'video' and image.type != 'document' and  image.type != 'link'%}
 						<a href="photo.php?photo={{image._id}}" class="link">
