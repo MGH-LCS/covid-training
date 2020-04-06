@@ -42,8 +42,19 @@
 				{% else %}
 					<div class="my-4">{{photo.caption | raw}}</div>
 				{% endif %}
+				
+			</div><!-- .col -->
+
+			<div class="col-6 mt-3">
 				{% if photo.document != null %}
-					<div class="document mt-4"><a href="{{photo.document}}" target="_blank"> <i class="fal fa-paperclip"></i> Summary Document</a></div>
+					<span class="document mr-4"><a href="{{photo.document}}" target="_blank" class="btn btn-primary"> <i class="fas fa-file-download"></i> Summary Document</a></span>
+				{% endif %}
+			
+			</div><!-- .col -->
+
+			<div class="col-6 text-right">
+				{% if photo.tags != null %}
+					Tags: {% for tag in tags %}{% if loop.index > 1 %} &nbsp;{% endif %}<a href="tag.php?tag={{tag}}" class="btn btn-info">{{ tag }}</a>{% endfor %}
 				{% endif %}
 			</div><!-- .col -->
 			<!-- <a href="{{urlNext}}" class="col-nav hidden-xs">

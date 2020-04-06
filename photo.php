@@ -42,12 +42,14 @@ $urlCategory = 'category.php?category=' . $category;
 $urlPrevious = 'category.php?category=' . $category;
 $urlNext = 'category.php?category=' . $category;
 
+$tags = null;
 $urlSet = null;
 if (!is_null($set)) {
     $urlSet = 'set.php?category=' . $category . '&set=' .$set;
 }
 
 foreach ($obj->{'images'} as &$image) {
+//    echo "image: $image->tags";
     if (!is_null($photo) && is_null($photoIdNext) && $category == $image->category) {
         $photoIdNext = $image->_id;
         $urlNext = 'photo.php?photo=' . $photoIdNext;
@@ -56,6 +58,7 @@ foreach ($obj->{'images'} as &$image) {
     if ($image->_id == $photoId) {
         $photo = $image;
         $photoTitle = $image->title;
+        $tags = $image->tags;
     };
     if (is_null($photo) && $image->category == $category) {
         $photoIdPrevious = $image->_id;
@@ -79,6 +82,7 @@ echo $template->render(array(
         'category' => $category,
         'set' => $set,
         'urlSet'=> $urlSet,
+        'tags'=> $tags,
 	));
 
 ?>

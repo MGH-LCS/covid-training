@@ -1,0 +1,43 @@
+<!doctype html>
+
+<head>
+	{% include 'common/meta.html' %}
+	{% include 'common/styles.html' %}
+</head>
+<body>
+	<?php include_once("analyticstracking.php") ?>
+	{% include 'common/nav.html' with {'foo': 'bar'} %}
+
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+			<li class="breadcrumb-item active">Tags</li>
+		</ol> 
+    </nav>
+
+	<div class="container">
+
+		<div class="row mt-5">
+
+			<ul>
+				{% for tag in tags %}
+				<li><a href="tag.php?tag={{tag}}">{{ tag }}</a></li>
+				{% endfor %}
+			</ul>
+
+			<!--{{cards}}-->
+			{% if name is empty %}
+			{% set name = "test" %}
+			{% endif %}
+
+		</div><!-- .row -->
+	</div><!-- .container -->
+
+	<br/>
+
+	{% include 'common/footer.html' %}
+	{% include 'common/scripts.html' %}
+	{% include 'common/tracking.html' %}
+
+</body>
+</html>
