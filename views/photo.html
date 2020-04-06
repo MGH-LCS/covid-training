@@ -52,7 +52,7 @@
 			
 			</div><!-- .col -->
 
-			<div class="col-6 text-right">
+			<div class="col-6 mt-3 text-right">
 				{% if photo.tags != null %}
 					Tags: {% for tag in tags %}{% if loop.index > 1 %} &nbsp;{% endif %}<a href="tag.php?tag={{tag}}" class="btn btn-info">{{ tag }}</a>{% endfor %}
 				{% endif %}
