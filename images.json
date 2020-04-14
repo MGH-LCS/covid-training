@@ -337,13 +337,10 @@
 
     {
         "_id": "critical-care-daccpm-lectures-basic-vent"
-        , "type": "document" 
-        , "folder": ""
+        , "type": "video" 
         , "title": "Basic Ventilation Modes (Alex Kuo)"
-        , "caption": ""
         , "category": "Critical Care"
-        , "youtube": ""
-        , "document": "https://vimeo.com/402641363/ed374acf21"
+        , "vimeo": "402641363"
         , "set":"DACCPM Lectures"
         , "partOfSet": true
         , "viewOnCategories": false
@@ -479,7 +476,6 @@
         , "viewOnCategories": false
     },
 
-
     {
             "_id": "critical-care-multimedia-1"
         , "type": "document" 
@@ -489,19 +485,6 @@
         , "category": "Critical Care"
         , "youtube": "C6z-vdg_PpQ"
         , "document": "https://ether.mgh.harvard.edu/wiki/images/c/ca/Anesthesia_Lecture_COVIDICU.pdf"
-        , "partOfSet": false
-        , "viewOnCategories": false
-    },
-
-    {
-        "_id": "critical-care-multimedia-2"
-        , "type": "link" 
-        , "folder": ""
-        , "title": "Basic ICU Ventilation Modes"
-        , "caption": ""
-        , "category": "Critical Care"
-        , "youtube": ""
-        , "document": "https://player.vimeo.com/video/402641363?dnt=1&app_id=122963"
         , "partOfSet": false
         , "viewOnCategories": false
     },
@@ -744,7 +727,30 @@
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
             , "viewOnCategories": false
-        }
+        },
+
+        {
+            "_id": "ms-stream-main-card"
+          , "type": "set" 
+          , "folder": "assets/images/categories/nursing"
+          , "title": ""
+          , "caption": ""
+          , "category": "Microsoft Stream"
+          , "viewOnCategories": true
+          , "hideOnCategory": true
+        },
+
+
+        {
+            "_id": "ms-stream-sample"
+           , "type": "video" 
+           , "title": "Clinicians as Learners"
+           , "category": "Microsoft Stream"
+           , "microsoft": "f7621acf-cf5c-41a6-8e2b-dc7403e535aa"
+           , "viewOnCategories": false
+           , "tags": ["Microsoft", "Stream"]
+
+       }
 
     ]
 }

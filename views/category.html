@@ -23,46 +23,8 @@
 				{% if image.hideOnCategory != true %}
 					{% if image.partOfSet == false %}
 						<div class="col-12 col-md-6 col-lg-4 text-center mb-4">
-							
-							{% if image.type != 'video' and image.type != 'document'  and  image.type != 'link' %}
-								<a href="photo.php?photo={{image._id}}" class="link">
-									<img src="{{image.folder}}/thumbnail.jpg" class="img-fluid" />
-									<div class="caption mt-3"><h4>{{ image.title }}</h4></div>
-								</a>
-							{% endif %}
-							{% if image.type == 'document' or image.type == "link" %}
-								<a href="{{image.document}}" class="link" target="_blank">
-									<div class="card w-100 category-card category-card-document" data-content="{{image.set}}">
-										<div class="card-body" style="color: white;">
-											{% if image.type == 'document' %}
-												<i class="fas fa-file-download cat-header"></i> 
-											{% else %}
-												<i class="fas fa-external-link cat-header"></i> 
-											{% endif %}
-											<h1 class="category-card-header">
-												{{ image.title }}
-											</h1>
-										</div>
-									</div>
-								</a>
-							{% endif %}
-							{% if image.type == 'video' %}
-								<a href="photo.php?photo={{image._id}}" class="link">
-									<div class="card w-100 category-card category-card-youtube" data-content="{{image.set}}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.youtube.com/vi/{{image.youtube}}/hqdefault.jpg')">
-										<div class="card-body" style="color: white;">
-											<i class="fab fa-youtube cat-header"></i>
-											<h1 class="category-card-header">
-												{{ image.title }}
-											</h1>
-										</div>
-									</div>
-								</a>
-							{% endif %}
-							<!-- {% if image.document != null %}
-								<div class="document mt-1"><a href="{{image.document}}" target="_blank"> Summary Document</a></div>
-							{% endif %} -->
+							{% include 'common/card-link.html' %}
 						</div>
-					
 					{% endif %}
 					{% if image.setCount != null %}
 					<div class="col-12 col-md-6 col-lg-4 text-center mb-4">

@@ -28,13 +28,19 @@
 				</div>
 			</a> -->
 			<div class="col-12">
-				{% if photo.youtube == null %}
+				{% if photo.youtube == null and photo.microsoft == null and photo.vimeo == null %}
 					<img src="{{photo.folder}}/photo.jpg" class="img-responsive bordered" />
 				{% else %}
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{photo.youtube}}?rel=0"></iframe>
-					</div>
 					
+						<div class="embed-responsive embed-responsive-16by9">
+							{% if photo.youtube != null %}
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{photo.youtube}}?rel=0"></iframe>
+							{% elseif photo.microsoft != null %}
+								<iframe src="https://web.microsoftstream.com/embed/video/{{photo.microsoft}}?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+							{% else %}
+								<iframe src="https://player.vimeo.com/video/{{photo.vimeo}}?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+							{% endif %}
+						</div>
 				{% endif %}
 
 				{% if photo.caption == null %}
