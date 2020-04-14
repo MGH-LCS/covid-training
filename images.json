@@ -58,6 +58,51 @@
             , "hideOnSet" : true
         },
 
+        {   
+            "_id": "grand-rounds-set"
+            , "type": "set" 
+            , "folder": "assets/images/categories/perioperative-care"
+            , "title": ""
+            , "caption":""
+            , "category": "Anesthesia"
+            , "viewOnCategories": false
+            , "set":"Grand Rounds"
+            , "partOfSet": true
+            , "setCount": "7"
+            , "story" : false
+            , "storyIntro" : ""
+            , "hideOnSet" : true
+        },
+
+        {
+            "_id": "italian-experience"
+           , "type": "video" 
+           , "folder": "assets/images/categories/perioperative-care"
+           , "title": "Italian COVID Experience"
+           , "caption": "Dr. Giacomo Grasselli (Intensivist and Coordinator of the Lombardy COVID-19 ICU network)"
+           , "category": "Anesthesia"
+           , "youtube": "GONUXokLaTc"
+           , "document": "https://ether.mgh.harvard.edu/wiki/images/4/4c/Italian_Experience_with_COVID_-_Giacomo_Grasselli.pptx"
+           , "set":"Grand Rounds"
+           , "partOfSet": true
+           , "viewOnCategories": false
+       },
+
+       {
+        "_id": "grand-rounds-icu-covid"
+       , "type": "video" 
+       , "folder": "assets/images/categories/perioperative-care"
+       , "title": "ICU COVID Management"
+       , "caption": "Dr. Corey Hardin (MGH intensivist, ARDS researcher, author of MGH COVID ICU guidelines)"
+       , "category": "Anesthesia"
+       , "youtube": "jrtTqz3LLXQ"
+       , "document": "https://ether.mgh.harvard.edu/wiki/images/c/ca/Anesthesia_Lecture_COVIDICU.pdf"
+       , "set":"Grand Rounds"
+       , "partOfSet": true
+       , "viewOnCategories": false
+   },
+
+
         {
              "_id": "donning-ppe"
             , "type": "video" 
