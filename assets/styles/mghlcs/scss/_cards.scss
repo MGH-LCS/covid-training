@@ -2,7 +2,14 @@ a.link:hover {
     text-decoration: none;
 }
 
-
+.tag-card {
+    min-height: 50px;
+    background-color: $brand-primary;
+    .card-body {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+    }
+}
 .categories-card,
 .category-card {
     min-height: 200px;    

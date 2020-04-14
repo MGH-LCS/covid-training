@@ -44,7 +44,7 @@ echo $template->render(array(
 		'id' => $id,
 		'view' => 'Set',
 		'tag' => $tag,
-		'title' => 'MGH COVID 19 - '.$set,
+		'title' => 'COVID-19 Educational Resources'.$set,
 		'description' => 'Coronavirus'
 	));
 

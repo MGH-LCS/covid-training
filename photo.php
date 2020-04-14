@@ -72,7 +72,7 @@ $template = $twig->loadTemplate('photo.html');
 echo $template->render(array(
 		'photo' => $photo,
 		'id' => $id,
-		'title' => 'MGH COVID 19 - ' .$photoTitle,
+		'title' => 'COVID-19 Educational Resources' .$photoTitle,
         'shortTitle' => $photoTitle,
         'photoIdPrevious' => $photoIdPrevious,
         'photoIdNext' => $photoIdNext,

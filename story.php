@@ -49,7 +49,7 @@ echo $template->render(array(
 		'id' => $id,
 		'hideSetTitles' => $hideSetTitles,
 		'view' => 'Set',
-		'title' => 'MGH COVID 19 - '.$set,
+		'title' => 'COVID-19 Educational Resources'.$set,
 		'description' => 'Coronavirus'
 	));
 

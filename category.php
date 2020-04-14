@@ -45,7 +45,7 @@ echo $template->render(array(
 		'id' => $id,
 		'view' => 'Full',
 		'partOfSet' => $partOfSet,
-		'title' => 'MGH COVID 19 - '.$category,
+		'title' => 'COVID-19 Educational Resources'.$category,
 		'description' => 'Coronavirus'
 	));
 

@@ -43,7 +43,7 @@ echo $template->render(array(
 		'images' => $setImages,
 		'id' => $id,
 		'view' => 'Set',
-		'title' => 'MGH COVID 19 - '.$set,
+		'title' => 'COVID-19 Educational Resources'.$set,
 		'description' => 'Coronavirus'
 	));
 

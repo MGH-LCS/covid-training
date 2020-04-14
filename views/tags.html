@@ -19,11 +19,19 @@
 
 		<div class="row mt-5">
 
-			<ul>
 				{% for tag in tags %}
-				<li><a href="tag.php?tag={{tag}}">{{ tag }}</a></li>
+					<a href="tag.php?tag={{tag}}" class="btn btn-info mr-2">{{ tag }}</a>
+					<!-- <div class="col-3 col-md-2 mb-4">
+			 			<a href="tag.php?tag={{tag}}" class="link">
+							<div class="card w-100 tag-card">
+								<div class="card-body" style="color: white;">
+									<p> <i class="fal fa-tag"></i> {{ tag }}</p>
+								</div>
+							</div>
+						</a>
+					</div> -->
 				{% endfor %}
-			</ul>
+			
 
 			<!--{{cards}}-->
 			{% if name is empty %}

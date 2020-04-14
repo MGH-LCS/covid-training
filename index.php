@@ -34,7 +34,7 @@ $template = $twig->loadTemplate('categories.html');
 echo $template->render(array(
     'categories' => $categories,
     'story' => $story,
-    'title' => 'MGH - Covid',
+    'title' => 'COVID-19 Educational Resources',
 	'description' => 'Covid Tutorials'
 ));
 

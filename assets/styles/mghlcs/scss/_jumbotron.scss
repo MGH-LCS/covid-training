@@ -9,7 +9,7 @@
     
     h1 {
         color: $white;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 200;
     }
 }
@@ -59,9 +59,9 @@
 @include media-breakpoint-down(xs) {
 
     .jumbotron.jumbotron-categories {
-        height: 180px;
+        height: 240px;
         h1 {
-            font-size: 35px;
+            font-size: 20px;
         }    
     }
 
