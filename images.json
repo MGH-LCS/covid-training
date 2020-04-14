@@ -772,30 +772,7 @@
             , "youtube": "jeBhl1ApFT8"
             , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
             , "viewOnCategories": false
-        },
-
-        {
-            "_id": "ms-stream-main-card"
-          , "type": "set" 
-          , "folder": "assets/images/categories/nursing"
-          , "title": ""
-          , "caption": ""
-          , "category": "Microsoft Stream"
-          , "viewOnCategories": true
-          , "hideOnCategory": true
-        },
-
-
-        {
-            "_id": "ms-stream-sample"
-           , "type": "video" 
-           , "title": "Clinicians as Learners"
-           , "category": "Microsoft Stream"
-           , "microsoft": "f7621acf-cf5c-41a6-8e2b-dc7403e535aa"
-           , "viewOnCategories": false
-           , "tags": ["Microsoft", "Stream"]
-
-       }
+        }
 
     ]
 }
