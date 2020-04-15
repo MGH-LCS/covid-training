@@ -29,30 +29,54 @@
 				{% if image.viewOnCategories == true %}
 					<h1 class="mt-5">{{ image.category}}</h1>
 					<hr/>
-				{% elseif image.hideOnSet == true %}
-					<h2 class="my-4">
-						{{ image.set}}
-					</h2>
 				{% else %}
-					<h3>
-						{% if image.type == 'document'%}
-							<a href="{{image.document}}" class="link" target="_blank">
-								{{ image.title }} <i class="fas fa-file-download"></i>
-							</a>
-						{% elseif image.type == 'link'%}
-							<a href="{{image.document}}" class="link" target="_blank">
-								{{ image.title }} <i class="fas fa-external-link"></i>
-							</a>
-						{% elseif image.type == 'video'%}
-							<a href="photo.php?photo={{image._id}}" class="link">
-								{{ image.title }} <i class="fab fa-youtube"></i>
-								{% if image.caption != null %}
-								<br/><small>{{ image.caption }}</small>
+					{% if image.hideOnSet == true or image.partOfSet != true %}
+						{% if image.hideOnSet == true %}
+							<h2 class="my-4">
+								{{ image.set}}
+							</h2>
+						{% else %}
+							<h3>
+								{% if image.type == 'document'%}
+									<a href="{{image.document}}" class="link" target="_blank">
+										{{ image.title }} <i class="fas fa-file-download"></i>
+									</a>
+								{% elseif image.type == 'link'%}
+									<a href="{{image.document}}" class="link" target="_blank">
+										{{ image.title }} <i class="fas fa-external-link"></i>
+									</a>
+								{% elseif image.type == 'video'%}
+									<a href="photo.php?photo={{image._id}}" class="link">
+										{{ image.title }} <i class="fab fa-youtube"></i>
+										{% if image.caption != null %}
+										<br/><small>{{ image.caption }}</small>
+										{% endif %}
+									</a>
 								{% endif %}
-							</a>
+							
+							</h3>
 						{% endif %}
-
-					</h3>
+					{% else %}
+						<h3 class="indent">
+							{% if image.type == 'document'%}
+								<a href="{{image.document}}" class="link" target="_blank">
+									{{ image.title }} <i class="fas fa-file-download"></i>
+								</a>
+							{% elseif image.type == 'link'%}
+								<a href="{{image.document}}" class="link" target="_blank">
+									{{ image.title }} <i class="fas fa-external-link"></i>
+								</a>
+							{% elseif image.type == 'video'%}
+								<a href="photo.php?photo={{image._id}}" class="link">
+									{{ image.title }} <i class="fab fa-youtube"></i>
+									{% if image.caption != null %}
+									<br/><small>{{ image.caption }}</small>
+									{% endif %}
+								</a>
+							{% endif %}
+						
+						</h3>
+					{% endif %}
 				{% endif %}
 			</div>
 			{% endfor %}

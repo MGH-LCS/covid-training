@@ -7161,13 +7161,16 @@ footer span {
   font-size: 2rem; }
 
 .list-all h2 {
-  font-size: 1.5rem;
-  margin-left: 1rem; }
+  font-size: 1.5rem; }
 
 .list-all h3 {
   font-size: 1rem;
-  margin-left: 2rem;
   margin-bottom: 2rem; }
+  .list-all h3 .fas, .list-all h3 .fab, .list-all h3 .fal, .list-all h3 .far, .list-all h3 .fa {
+    font-size: .7rem; }
+
+.list-all h3.indent {
+  margin-left: 2rem; }
 
 .pointer {
   cursor: pointer; }
