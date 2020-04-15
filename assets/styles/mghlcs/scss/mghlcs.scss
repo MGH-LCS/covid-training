@@ -6,6 +6,13 @@ $theme-colors: (
   "danger": #ff4136
 );
 
+$GeneralReference-color: 	$red-600;
+$TreatmentandCare-color:	$deep-purple-600;
+$SupportandLogistics-color:	$cyan-600;
+$AdvancedPPE-color:			$amber-500;
+$Anesthesia-color:			$orange-700;
+$CriticalCare-color:		$blue-900;		
+
 @import "../../bootstrap-4.3.1/scss/bootstrap";
 
 @import "cards";
