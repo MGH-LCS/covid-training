@@ -7025,28 +7025,40 @@ a.link:hover {
   font-size: 1.5rem; }
 
 .categories-card.GeneralReference,
-.category-card.GeneralReference {
-  background-color: #e53935; }
+.category-card.GeneralReference,
+h1.GeneralReference {
+  background-color: #e53935;
+  color: white; }
 
 .categories-card.TreatmentandCare,
-.category-card.TreatmentandCare {
-  background-color: #5e35b1; }
+.category-card.TreatmentandCare,
+h1.TreatmentandCare {
+  background-color: #5e35b1;
+  color: white; }
 
 .categories-card.SupportandLogistics,
-.category-card.SupportandLogistics {
-  background-color: #00acc1; }
+.category-card.SupportandLogistics,
+h1.SupportandLogistics {
+  background-color: #00acc1;
+  color: white; }
 
 .categories-card.AdvancedPPE,
-.category-card.AdvancedPPE {
-  background-color: #ffc107; }
+.category-card.AdvancedPPE,
+h1.AdvancedPPE {
+  background-color: #ffc107;
+  color: white; }
 
 .categories-card.Anesthesia,
-.category-card.Anesthesia {
-  background-color: #f57c00; }
+.category-card.Anesthesia,
+h1.Anesthesia {
+  background-color: #f57c00;
+  color: white; }
 
 .categories-card.CriticalCare,
-.category-card.CriticalCare {
-  background-color: #0d47a1; }
+.category-card.CriticalCare,
+h1.CriticalCare {
+  background-color: #0d47a1;
+  color: white; }
 
 .category-card-youtube {
   background-size: cover;

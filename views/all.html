@@ -27,8 +27,7 @@
 			{% for image in categories %}
 			<div class="list-all">
 				{% if image.viewOnCategories == true %}
-					<h1 class="mt-5">{{ image.category}}</h1>
-					<hr/>
+					<h1 class="mt-5 {{ image.category|replace({' ': ''}) }} p-3">{{ image.category}}</h1>
 				{% else %}
 					{% if image.hideOnSet == true or image.partOfSet != true %}
 						{% if image.hideOnSet == true %}
@@ -36,7 +35,7 @@
 								{{ image.set}}
 							</h2>
 						{% else %}
-							<h3>
+							<h3 class="my-4">
 								{% include 'common/all-link.html' with {'foo': 'bar'} %}
 							</h3>
 						{% endif %}

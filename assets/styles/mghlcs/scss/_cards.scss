@@ -37,35 +37,47 @@ a.link:hover {
 
 
 .categories-card.GeneralReference,
-.category-card.GeneralReference{
-    background-color: $GeneralReference-color;   
+.category-card.GeneralReference,
+h1.GeneralReference{
+    background-color: $GeneralReference-color;
+    color: white;   
 }
 
 
 .categories-card.TreatmentandCare,
-.category-card.TreatmentandCare{
-    background-color: $TreatmentandCare-color;   
+.category-card.TreatmentandCare,
+h1.TreatmentandCare{
+    background-color: $TreatmentandCare-color;
+    color: white;   
 }
 
 .categories-card.SupportandLogistics,
-.category-card.SupportandLogistics{
-    background-color: $SupportandLogistics-color;   
+.category-card.SupportandLogistics,
+h1.SupportandLogistics{
+    background-color: $SupportandLogistics-color;
+    color: white;   
 }
 
 .categories-card.AdvancedPPE,
-.category-card.AdvancedPPE{
-    background-color: $AdvancedPPE-color;   
+.category-card.AdvancedPPE,
+h1.AdvancedPPE{
+    background-color: $AdvancedPPE-color;
+    color: white;   
 }
 
 .categories-card.Anesthesia,
-.category-card.Anesthesia{
-    background-color: $Anesthesia-color;   
+.category-card.Anesthesia,
+h1.Anesthesia{
+    background-color: $Anesthesia-color;
+    color: white;   
 }
 
 
 .categories-card.CriticalCare,
-.category-card.CriticalCare{
-    background-color: $CriticalCare-color;   
+.category-card.CriticalCare,
+h1.CriticalCare{
+    background-color: $CriticalCare-color;
+    color: white;   
 }
 
 
