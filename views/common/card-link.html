@@ -6,7 +6,7 @@
 {% endif %}
 {% if image.type == 'document' or image.type == "link" %}
     <a href="{{image.document}}" class="link" target="_blank">
-        <div class="card w-100 category-card category-card-document" data-content="{{image.set}}">
+        <div class="card w-100 category-card category-card-document {{ image.category|replace({' ': ''}) }}" data-content="{{image.set}}">
             <div class="card-body" style="color: white;">
                 {% if image.type == 'document' %}
                     <i class="fas fa-file-download cat-header"></i> 

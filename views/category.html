@@ -30,7 +30,7 @@
 					<div class="col-12 col-md-6 col-lg-4 text-center mb-4">
 						{% if image.story == null %}
 							<a href="set.php?set={{image.set}}&category={{image.category}}" class="link">
-								<div class="card w-100 category-card" data-content="{{image.set}}" style="background-image: url('{{image.folder}}/thumbnail-cmyk.png')">
+								<div class="card w-100 category-card {{ image.category|replace({' ': ''}) }}" data-content="{{image.set}}">
 									<div class="card-body" style="color: white;">
 										<i class="fal fa-layer-group cat-header"></i>
 										<h1 class="category-card-header">

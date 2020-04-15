@@ -13,11 +13,11 @@
 		{% endif %}
 
 		{% if view == 'photo' %}
-			<div class="card w-100 mb-3" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
+			<div class="card w-100 mb-3 {{ category.category|replace({' ': ''}) }}" data-content="{{image.title}}" style="background-image: url('{{image.folder}}/thumbnail.jpg')">
 		{% elseif view == 'sets' %}
-			<div class="card w-100 mb-3" data-content="{{image.set}}" style="background-image: url('{{category.folder}}/thumbnail.jpg')">
+			<div class="card w-100 mb-3 {{ category.category|replace({' ': ''}) }}" data-content="{{image.set}}">
 		{% else %}
-			<div class="card w-100 mb-3 categories-card" data-content="{{image.title}}" style="background-image: url('{{category.folder}}/thumbnail-cmyk.png')">
+			<div class="card w-100 mb-3 categories-card {{ category.category|replace({' ': ''}) }}" data-content="{{image.title}}">
 		{% endif %}
 		
 			<div class="card-body" style="color: white;">

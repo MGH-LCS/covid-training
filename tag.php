@@ -1,14 +1,13 @@
 <?php
 
-require_once('vendor/twig/twig/lib/Twig/Autoloader.php');
-Twig_Autoloader::register();
+require_once 'vendor/autoload.php';
 
-$loader = new Twig_Loader_Filesystem('views');
+$loader = new \Twig\Loader\FilesystemLoader('views');
 
-$twig = new Twig_Environment($loader, array(
-  'cache' => false,
-  'auto_reload' => true,
-));
+$twig = new \Twig\Environment($loader, [
+    'cache' => false,
+    'auto_reload' => true,
+]);
 
 $category = null;
 $category = $_GET['category'];
@@ -36,7 +35,7 @@ foreach ($obj->{'images'} as &$image) {
 
 //var_dump($photo);
 
-$template = $twig->loadTemplate('tag.html');
+$template = $twig->load('tag.html');
 echo $template->render(array(
 		'categoryTitle' => $category,
 		'setTitle' => $set,

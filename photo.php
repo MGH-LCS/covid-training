@@ -1,14 +1,13 @@
 <?php
 header("Access-Control-Allow-Origin: *");
-require_once('vendor/twig/twig/lib/Twig/Autoloader.php');
-Twig_Autoloader::register();
+require_once 'vendor/autoload.php';
 
-$loader = new Twig_Loader_Filesystem('views');
+$loader = new \Twig\Loader\FilesystemLoader('views');
 
-$twig = new Twig_Environment($loader, array(
-  'cache' => false,
-  'auto_reload' => true,
-));
+$twig = new \Twig\Environment($loader, [
+    'cache' => false,
+    'auto_reload' => true,
+]);
 
 $photo = null;
 $photoTitle = null;
@@ -68,7 +67,7 @@ foreach ($obj->{'images'} as &$image) {
 
 //var_dump($photo);
 
-$template = $twig->loadTemplate('photo.html');
+$template = $twig->load('photo.html');
 echo $template->render(array(
 		'photo' => $photo,
 		'id' => $id,
