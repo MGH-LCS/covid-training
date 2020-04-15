@@ -11,10 +11,10 @@
                 {% if image.type == 'document' %}
                     <i class="fas fa-file-download cat-header"></i> 
                 {% else %}
-                    <i class="fas fa-external-link cat-header"></i> 
+                     <i class="fas fa-external-link cat-header"></i> 
                 {% endif %}
                 <h1 class="category-card-header">
-                    {{ image.title }}
+                    {{ image.title }} {% include 'common/new-badge.html' with {'view':'card'} %} 
                 </h1>
             </div>
         </div>
@@ -27,7 +27,7 @@
                 <div class="card-body" style="color: white;">
                     <i class="fab fa-youtube cat-header"></i>
                     <h1 class="category-card-header">
-                        {{ image.title }}
+                        {{ image.title }} {% include 'common/new-badge.html' with {'view':'card'} %} 
                     </h1>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="card-body" style="color: white;">
                     <i class="fab fa-youtube cat-header"></i>
                     <h1 class="category-card-header">
-                        {{ image.title }}
+                        {{ image.title }} {% include 'common/new-badge.html' with {'view':'card'} %} 
                     </h1>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="card-body" style="color: white;">
                     <i class="fab fa-youtube cat-header"></i>
                     <h1 class="category-card-header">
-                        {{ image.title }}
+                        {{ image.title }} {% include 'common/new-badge.html' with {'view':'card'} %} 
                     </h1>
                 </div>
             </div>

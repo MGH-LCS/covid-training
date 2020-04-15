@@ -4,6 +4,7 @@
 {
 "_id": "general-reference-main-card"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/emergency-medicine"
 , "category": "General Reference"
 , "viewOnCategories": true
@@ -14,9 +15,11 @@
 {
 "_id": "gen-ref-1"
 , "type": "link" 
+, "new": true
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "COVID-19 Treatment Guidance"
-, "caption": "MGH Department of Medicine"
+, "caption": ""
+, "byline": "MGH Department of Medicine"
 , "category": "General Reference"
 , "document": "https://www.massgeneral.org/news/coronavirus/treatment-guidance"
 , "viewOnCategories": false
@@ -25,9 +28,11 @@
 {
 "_id": "gen-ref-2"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "MGH Apollo: Coronavirus Information"
-, "caption": "MGH Intranet"
+, "caption": ""
+, "byline": "MGH Intranet"
 , "category": "General Reference"
 , "document": "https://pulse.partners.org/hub/departments/emergency_preparedness/coronavirus"
 , "viewOnCategories": false
@@ -36,9 +41,11 @@
 {
 "_id": "gen-ref-3"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Partners Pulse: Coronavirus (COVID-19) Updates"
-, "caption": "MGH Intranet"
+, "caption": ""
+, "byline": "Partners Intranet"
 , "category": "General Reference"
 , "document": "https://apollo.massgeneral.org/coronavirus/"
 , "viewOnCategories": false
@@ -48,6 +55,7 @@
 {
 "_id": "treatment-and-care-main-card"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/ultrasound"
 , "category": "Treatment and Care"
 , "viewOnCategories": true
@@ -58,6 +66,7 @@
 {   
 "_id": "treatment-and-care-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -72,9 +81,11 @@
 {
 "_id": "treatment-and-care-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "COVID-19 Treatment Guidance"
-, "caption": "MGH Department of Medicine"
+, "caption": ""
+, "byline": "MGH Department of Medicine"
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneral.org/news/coronavirus/treatment-guidance"
 , "viewOnCategories": false
@@ -85,9 +96,11 @@
 {
 "_id": "treatment-and-care-2"
 , "type": "document" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "COVID-19 Treatment Guidance"
-, "caption": "MGH Department of Medicine"
+, "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneral.org/assets/MGH/pdf/news/coronavirus/mass-general-COVID-19-treatment-guidance.pdf"
 , "viewOnCategories": false
@@ -99,9 +112,11 @@
 {
 "_id": "treatment-and-care-3"
 , "type": "document" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Critical Care Treatment Treatment Guidance"
-, "caption": "MGH Department of Medicine"
+, "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneral.org/assets/MGH/pdf/news/coronavirus/treatment-guidance-for-critically-ill-patients-with-COVID-19.pdf"
 , "viewOnCategories": false
@@ -114,6 +129,7 @@
 {   
 "_id": "infection-control-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -128,9 +144,11 @@
 {
 "_id": "infection-control-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": " Guidance and 'How To: Videos'"
 , "caption": ""
+, "byline": "MGH Apollo"
 , "category": "Treatment and Care"
 , "document": "https://apollo.massgeneral.org/coronavirus/"
 , "viewOnCategories": false
@@ -141,9 +159,11 @@
 {
 "_id": "infection-control-2"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "In-Person Training, Founders 311"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://apollo.massgeneral.org/coronavirus/clinicians/infection-control/"
 , "viewOnCategories": false
@@ -155,6 +175,7 @@
 {   
 "_id": "surge-training-resources-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -169,9 +190,11 @@
 {
 "_id": "surge-training-resources-1"
 , "type": "document" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Hospital Medicine"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneral.org/assets/MGH/pdf/news/coronavirus/common-inpatient-topics.pdf"
 , "viewOnCategories": false
@@ -182,9 +205,11 @@
 {
 "_id": "surge-training-resources-2"
 , "type": "document" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Critical Care-Nursing"
 , "caption": ""
+, "byline": "MGH Apollo"
 , "category": "Treatment and Care"
 , "document": "https://apollo.massgeneral.org/coronavirus/wp-content/uploads/sites/78/2020/04/Nursing-Management-Guideline-for-Non-ICU-Nurses.pdf"
 , "viewOnCategories": false
@@ -199,6 +224,7 @@
 {   
 "_id": "covid-grand-rounds-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -213,9 +239,11 @@
 {
 "_id": "covid-grand-rounds-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Department of Medicine"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneral.org/news/coronavirus/grand-rounds"
 , "viewOnCategories": false
@@ -226,9 +254,11 @@
 {
 "_id": "covid-grand-rounds-2"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Division of Cardiology"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "http://healthcare.partners.org/streaming/Live/MGHcardioGR/index.html"
 , "viewOnCategories": false
@@ -240,9 +270,11 @@
 {
 "_id": "covid-grand-rounds-3"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Department of Radiology/Imaging"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneralimaging.org/newsletter/radrounds/april-2020/imaging-guidelines-for-covid-19-infection/"
 , "viewOnCategories": false
@@ -254,9 +286,11 @@
 {
 "_id": "covid-grand-rounds-4"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Department of Psychiatry"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.massgeneral.org/psychiatry/guide-to-mental-health-resources/"
 , "viewOnCategories": false
@@ -268,9 +302,11 @@
 {
 "_id": "covid-grand-rounds-5"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Harvard Medical School"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://postgraduateeducation.hms.harvard.edu/continuing-education/covid-19-resources-providers"
 , "viewOnCategories": false
@@ -281,9 +317,11 @@
 {
 "_id": "covid-grand-rounds-6"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "EdX (Mechanical Ventilation)"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://www.edx.org/course/mechanical-ventilation-for-covid-19"
 , "viewOnCategories": false
@@ -294,9 +332,11 @@
 {
 "_id": "covid-grand-rounds-7"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Treadwell Library "
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://libguides.massgeneral.org/covid19"
 , "viewOnCategories": false
@@ -310,6 +350,7 @@
 {   
 "_id": "covid-science-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -324,9 +365,11 @@
 {
 "_id": "covid-science-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "MGH Advances in Motion"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://advances.massgeneral.org/search.aspx?q=covid&st=1&specialty=research%20and%20innovation&maxResults=15"
 , "viewOnCategories": false
@@ -337,9 +380,11 @@
 {
 "_id": "covid-science-2"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Fast Literature Assessment and Review (FLARE)"
 , "caption": ""
+, "byline": ""
 , "category": "Treatment and Care"
 , "document": "https://us19.campaign-archive.com/home/?u=ef98149bee3f299584374540a&id=0082f3a64d"
 , "viewOnCategories": false
@@ -351,6 +396,7 @@
 {   
 "_id": "patient-care-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -365,9 +411,11 @@
 {
 "_id": "patient-care-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "PCS Coronavirus Resources"
 , "caption": ""
+, "byline": "MGH Apollo"
 , "category": "Treatment and Care"
 , "document": "https://apollo.massgeneral.org/coronavirus/pcs-resources/"
 , "viewOnCategories": false
@@ -378,6 +426,7 @@
 {   
 "_id": "epic-resources-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -392,9 +441,11 @@
 {
 "_id": "epic-resources-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
-, "title": "COVID-19 Training Materials (Partners)"
+, "title": "COVID-19 Training Materials"
 , "caption": ""
+, "byline": "Partners"
 , "category": "Treatment and Care"
 , "document": "https://partnersecare.partners.org/ecare-covid-19-training-materials/"
 , "viewOnCategories": false
@@ -405,9 +456,11 @@
 {
 "_id": "epic-resources-2"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "eCare Tips (MGH)"
 , "caption": ""
+, "byline": "MGH"
 , "category": "Treatment and Care"
 , "document": "https://intranet.massgeneral.org/npcs/eed/ecare/default.shtml"
 , "viewOnCategories": false
@@ -420,6 +473,7 @@
 {
 "_id": "support-and-logistics-main-card"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/surgery"
 , "category": "Support and Logistics"
 , "viewOnCategories": true
@@ -430,9 +484,11 @@
 {
 "_id": "support-and-logistics-1"
 , "type": "document" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Resident “Quick Start” Floor Guide"
 , "caption": ""
+, "byline": ""
 , "category": "Support and Logistics"
 , "document": "https://www.massgeneral.org/assets/MGH/pdf/news/coronavirus/inpatient-medicine-quick-start-guide.pdf"
 , "viewOnCategories": false
@@ -441,9 +497,11 @@
 {
     "_id": "support-and-logistics-3"
     , "type": "link" 
+    , "new": false
     , "folder": "assets/images/categories/advanced-ppe"
     , "title": "Partners Office of Continuing Professional Development"
     , "caption": ""
+    , "byline": ""
     , "category": "Support and Logistics"
     , "document": "https://cpd.partners.org/content/covid-19-resource-page"
     , "viewOnCategories": false
@@ -452,9 +510,11 @@
     {
     "_id": "support-and-logistics-4"
     , "type": "link" 
+    , "new": false
     , "folder": "assets/images/categories/advanced-ppe"
     , "title": "MGH Institute of Health Professions"
     , "caption": ""
+    , "byline": ""
     , "category": "Support and Logistics"
     , "document": "https://www.mghihp.edu/coronavirus"
     , "viewOnCategories": false
@@ -463,6 +523,7 @@
 {   
 "_id": "harvard-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -477,9 +538,11 @@
 {
 "_id": "harvard-1"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "University"
 , "caption": ""
+, "byline": ""
 , "category": "Support and Logistics"
 , "document": "https://www.harvard.edu/coronavirus"
 , "viewOnCategories": false
@@ -490,9 +553,11 @@
 {
 "_id": "harvard-2"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Medical School"
 , "caption": ""
+, "byline": ""
 , "category": "Support and Logistics"
 , "document": "https://hms.harvard.edu/coronavirus-updates/md-student-guidance"
 , "viewOnCategories": false
@@ -504,9 +569,11 @@
 {
 "_id": "harvard-3"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Student Response"
 , "caption": ""
+, "byline": ""
 , "category": "Support and Logistics"
 , "document": "https://covidstudentresponse.org/"
 , "viewOnCategories": false
@@ -517,9 +584,11 @@
 {
 "_id": "harvard-4"
 , "type": "link" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Student Volunteers"
 , "caption": ""
+, "byline": ""
 , "category": "Medical School"
 , "document": "https://docs.google.com/forms/d/e/1FAIpQLScGm_lxpr1a_HNb9lz36fEsFkjsvG02UqyGEgiwkuxpjriN0A/viewform"
 , "viewOnCategories": false
@@ -530,9 +599,11 @@
 {
 "_id": "advanced-ppe-main-card"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Donning PPE"
 , "caption": ""
+, "byline": ""
 , "category": "Advanced PPE"
 , "youtube": "jeBhl1ApFT8"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
@@ -543,9 +614,11 @@
 {
 "_id": "advanced-pp-video-1"
 , "type": "video" 
+, "new": false
 , "folder": "assets/images/categories/advanced-ppe"
 , "title": "Air Purifying Respirators (APR)"
 , "caption": ""
+, "byline": ""
 , "category": "Advanced PPE"
 , "youtube": "nyDfmUgAj0w"
 , "document": ""
@@ -557,6 +630,7 @@
 {   
 "_id": "anesthesia-main-card"
 , "type": "" 
+, "new": false
 , "folder": "assets/images/categories/anesthesia"
 , "title": ""
 , "caption":""
@@ -570,6 +644,7 @@
 {   
 "_id": "grand-rounds-set"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -586,9 +661,11 @@
 {
 "_id": "italian-experience"
 , "type": "video" 
+, "new": true
 , "folder": "assets/images/categories/perioperative-care"
 , "title": "Italian COVID Experience"
 , "caption": "Dr. Giacomo Grasselli (Intensivist and Coordinator of the Lombardy COVID-19 ICU network)"
+, "byline": "Dr. Giacomo Grasselli"
 , "category": "Anesthesia"
 , "youtube": "GONUXokLaTc"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/4/4c/Italian_Experience_with_COVID_-_Giacomo_Grasselli.pptx"
@@ -600,9 +677,11 @@
 {
 "_id": "grand-rounds-icu-covid"
 , "type": "video" 
+, "new": true
 , "folder": "assets/images/categories/perioperative-care"
 , "title": "ICU COVID Management"
 , "caption": "Dr. Corey Hardin (MGH intensivist, ARDS researcher, author of MGH COVID ICU guidelines)"
+, "byline": "Dr. Corey Hardin"
 , "category": "Anesthesia"
 , "youtube": "jrtTqz3LLXQ"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/c/ca/Anesthesia_Lecture_COVIDICU.pdf"
@@ -614,6 +693,7 @@
 {   
     "_id": "perioperative-care-set"
     , "type": "set" 
+    , "new": false
     , "folder": "assets/images/categories/perioperative-care"
     , "title": ""
     , "caption":""
@@ -631,9 +711,11 @@
 {
 "_id": "donning-ppe"
 , "type": "video" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": "Donning PPE"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "jeBhl1ApFT8"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
@@ -645,9 +727,11 @@
 {
 "_id": "n95-fit"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/joanne"
 , "title": "Optimizing N-95 Fit"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "LxljPRCvg1I"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/e/ea/Optimizing_N-95_Fit.pdf"
@@ -659,9 +743,11 @@
 {
 "_id": "doffing-ppe"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "Doffing PPE"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "u2fT_NV6VlA"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/2/24/Doffing.pdf"
@@ -674,9 +760,11 @@
 {
 "_id": "Operating-Room-Intubation"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "Operating Room Intubation"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "zsQgfUC_RBg"
 , "document": ""
@@ -689,9 +777,11 @@
 {
 "_id": "Mgmt-Already-Intubated"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "Mgmt for 'Already Intubated'"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "C6z-vdg_PpQ"
 , "document": ""
@@ -703,9 +793,11 @@
 {
 "_id": "Operating-Room-Extubation"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "Operating Room Extubation"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "jpFUknwXWa4"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf"
@@ -717,9 +809,11 @@
 {
 "_id": "Extubation-Additional-Method"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "Extubation (Additional Method)"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "J_KVOlpwtEA"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf"
@@ -731,9 +825,11 @@
 {
 "_id": "patient-transport-one"
 , "type": "video" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "Patient Transport for COVID-19"
 , "caption": "This represents our current best practices for transport of the intubated patient who is COVID-19 positive or under investigation (3-30-20). The basic principles include limiting spread from the patient, providing necessary care during transport, and protecting the transport team."
+, "byline": ""
 , "category": "Anesthesia"
 , "youtube": "XcZhUO6wbnI"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/b/b4/Extubation_%28Alternate%29.pdf"
@@ -745,9 +841,11 @@
 {
 "_id": "soap-one"
 , "type": "link" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "SOAP: Obstetric Anesthesia Considerations"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "document": "https://soap.org/wp-content/uploads/2020/03/SOAP_COVID-19_Infographic_032620.pdf"
 , "set":"Perioperative Care"
@@ -758,9 +856,11 @@
 {
 "_id": "soap-two"
 , "type": "link" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "SOAP: COVID-19 Toolkit"
 , "caption": ""
+, "byline": ""
 , "category": "Anesthesia"
 , "document": "https://soap.org/education/provider-education/expert-summaries/interim-considerations-for-obstetric-anesthesia-care-related-to-covid19/"
 , "set":"Perioperative Care"
@@ -774,6 +874,7 @@
 {   
 "_id": "critical-care-main-card"
 , "type": "video" 
+, "new": false
 , "folder": "assets/images/categories/critical-care"
 , "title": ""
 , "caption":""
@@ -788,6 +889,7 @@
 {   
 "_id": "critical-care-covid-roles-set"
 , "type": "" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -805,9 +907,11 @@
 {
 "_id": "critical-care-covid-roles-ricu"
 , "type": "document" 
+, "new": false
 , "folder": ""
 , "title": "RICU Guidelines"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://ether.mgh.harvard.edu/wiki/images/5/5e/RICU_Guidelines_for_COVID.pdf"
@@ -819,9 +923,11 @@
 {
 "_id": "critical-care-covid-roles-cobra"
 , "type": "document" 
+, "new": false
 , "folder": ""
 , "title": "COBRA Team Info"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://ether.mgh.harvard.edu/wiki/images/a/a4/COBRA_Team.pdf"
@@ -833,6 +939,7 @@
 {   
 "_id": "critical-care-mgh-guidelines-set"
 , "type": "" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -849,9 +956,11 @@
 {
 "_id": "critical-care-mgh-guidelines-critically-ill"
 , "type": "document" 
+, "new": false
 , "folder": ""
 , "title": "Treatment Guide for Critically Ill Patients with COVID-19"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://ether.mgh.harvard.edu/wiki/images/9/91/MGH_Critical_Care_of_COVID-19_Protocol_as_of_3-19-20.pdf"
@@ -863,9 +972,11 @@
 {
 "_id": "critical-care-mgh-guidelines-fast"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "MGH Department of Medicine (includes “Fast Literature Updates”)"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://www.massgeneral.org/news/coronavirus/treatment-guidances"
@@ -877,9 +988,11 @@
 {
 "_id": "critical-care-mgh-guidelines-treadwell"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "Treadwell Library COVID guide"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://libguides.massgeneral.org/covid19"
@@ -892,6 +1005,7 @@
 {   
 "_id": "critical-care-daccpm-lectures"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -908,6 +1022,7 @@
 {
 "_id": "critical-care-daccpm-lectures-basic-vent"
 , "type": "video" 
+, "new": false
 , "title": "Basic Ventilation Modes (Alex Kuo)"
 , "category": "Critical Care"
 , "vimeo": "402641363"
@@ -919,9 +1034,11 @@
 {
 "_id": "critical-care-daccpm-lectures-ards"
 , "type": "video" 
+, "new": false
 , "folder": ""
 , "title": "ARDS Management with COVID (Aranya Bagchi)"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": "IWo9WE97H9w"
 , "document": ""
@@ -935,6 +1052,7 @@
 {   
 "_id": "critical-care-society-help"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -951,9 +1069,11 @@
 {
 "_id": "critical-care-society-help-one"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "ASA Critical Care Primers"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://www.asahq.org/in-the-spotlight/coronavirus-covid-19-information/caesar?_ga=2.232026839.957188551.1585592902-1935300592.1568648828&ct=2f5c370cec3a9e1a83d466d718872cd3f9e1910b0b046b3a2222126b39fbde9ac1bd687a587015ba15c4228facf0f1275ba4b579fe497b6de49c4a2df5199630"
@@ -965,9 +1085,11 @@
 {
 "_id": "critical-care-society-help-two"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "SCCM: ICU Primers"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://covid19.sccm.org/nonicu.htm"
@@ -979,9 +1101,11 @@
 {
 "_id": "critical-care-society-help-three"
 , "type": "document" 
+, "new": false
 , "folder": ""
 , "title": "SCCM: Covid Guidelines"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://ether.mgh.harvard.edu/wiki/images/0/0e/Surviving_Sepsis_Campaign_Guidelines_on_the.95707.pdf"
@@ -993,9 +1117,11 @@
 {
 "_id": "critical-care-society-help-four"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "Pulm CCM"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://pulmccm.org/"
@@ -1007,9 +1133,11 @@
 {
 "_id": "critical-care-society-help-five"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "EMCrit"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://emcrit.org/ibcc/covid19/"
@@ -1021,9 +1149,11 @@
 {
 "_id": "critical-care-society-help-six"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "JAMA"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://jamanetwork.com/journals/jama/pages/coronavirus-alert"
@@ -1035,9 +1165,11 @@
 {
 "_id": "critical-care-society-help-seven"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "NEJM"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://www.nejm.org/coronavirus"
@@ -1049,9 +1181,11 @@
 {
 "_id": "critical-care-multimedia-1"
 , "type": "document" 
+, "new": false
 , "folder": "photos/2014/08-August/2014-08-08/molly"
 , "title": "ICU COVID Management"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": "C6z-vdg_PpQ"
 , "document": "https://ether.mgh.harvard.edu/wiki/images/c/ca/Anesthesia_Lecture_COVIDICU.pdf"
@@ -1062,9 +1196,11 @@
 {
 "_id": "critical-care-multimedia-3"
 , "type": "video" 
+, "new": false
 , "folder": ""
 , "title": "COVID in Critically Ill "
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": "jrtTqz3LLXQ"
 , "document": ""
@@ -1075,9 +1211,11 @@
 {
 "_id": "critical-care-multimedia-4"
 , "type": "video" 
+, "new": false
 , "folder": ""
 , "title": "ARDS Management with COVID"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": "IWo9WE97H9w"
 , "document": ""
@@ -1088,9 +1226,11 @@
 {
 "_id": "critical-care-multimedia-5"
 , "type": "video" 
+, "new": false
 , "folder": ""
 , "title": "MGH ICU Research Updates"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": "kzaVE_KYSxc"
 , "document": ""
@@ -1102,6 +1242,7 @@
 {   
 "_id": "critical-care-other-hospitals"
 , "type": "set" 
+, "new": false
 , "folder": "assets/images/categories/perioperative-care"
 , "title": ""
 , "caption":""
@@ -1118,9 +1259,11 @@
 {
 "_id": "critical-care-other-hosplitals-one"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "Brigham & Women’s"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://covidprotocols.org/"
@@ -1132,9 +1275,11 @@
 {
 "_id": "critical-care-other-hosplitals-two"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "Columbia"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://nyp.app.box.com/v/CUMC-Anes-COVID-Shared/"
@@ -1146,9 +1291,11 @@
 {
 "_id": "critical-care-other-hosplitals-three"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "Mt. Sinai"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://www.mssurg.com/covid"
@@ -1160,9 +1307,11 @@
 {
 "_id": "critical-care-other-hosplitals-four"
 , "type": "link" 
+, "new": false
 , "folder": ""
 , "title": "Johns Hopkins"
 , "caption": ""
+, "byline": ""
 , "category": "Critical Care"
 , "youtube": ""
 , "document": "https://coronavirus.jhu.edu/map.html"

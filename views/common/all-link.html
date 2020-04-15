@@ -1,0 +1,19 @@
+{% if image.type == 'document'%}
+    <a href="{{image.document}}" class="link" target="_blank">
+        {{ image.title }} <i class="fas fa-file-download"></i>
+    </a>
+    {% include 'common/new-badge.html' %}
+    {% include 'common/all-byline.html' %}
+{% elseif image.type == 'link'%}
+    <a href="{{image.document}}" class="link" target="_blank">
+        {{ image.title }} <i class="fas fa-external-link"></i>
+    </a>
+    {% include 'common/new-badge.html' %}
+    {% include 'common/all-byline.html' %}
+{% elseif image.type == 'video'%}
+    <a href="photo.php?photo={{image._id}}" class="link">
+        {{ image.title }} <i class="fab fa-youtube"></i>
+    </a>
+    {% include 'common/new-badge.html' %}
+    {% include 'common/all-byline.html' %}
+{% endif %}

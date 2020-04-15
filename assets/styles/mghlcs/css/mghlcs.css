@@ -6993,7 +6993,7 @@ a.link:hover {
   text-align: left;
   color: white;
   font-weight: 600;
-  font-size: 2rem !important; }
+  font-size: 1.5rem !important; }
   .categories-card-header small,
   .category-card-header small {
     font-size: 1rem;
@@ -7166,8 +7166,10 @@ footer span {
 .list-all h3 {
   font-size: 1rem;
   margin-bottom: 2rem; }
-  .list-all h3 .fas, .list-all h3 .fab, .list-all h3 .fal, .list-all h3 .far, .list-all h3 .fa {
+  .list-all h3 .fas, .list-all h3 .fal, .list-all h3 .far, .list-all h3 .fa {
     font-size: .7rem; }
+  .list-all h3 .fab {
+    font-size: .9rem; }
 
 .list-all h3.indent {
   margin-left: 2rem; }
