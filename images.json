@@ -438,6 +438,27 @@
 , "viewOnCategories": false
 },
 
+{
+    "_id": "support-and-logistics-3"
+    , "type": "link" 
+    , "folder": "assets/images/categories/advanced-ppe"
+    , "title": "Partners Office of Continuing Professional Development"
+    , "caption": ""
+    , "category": "Support and Logistics"
+    , "document": "https://cpd.partners.org/content/covid-19-resource-page"
+    , "viewOnCategories": false
+    },
+    
+    {
+    "_id": "support-and-logistics-4"
+    , "type": "link" 
+    , "folder": "assets/images/categories/advanced-ppe"
+    , "title": "MGH Institute of Health Professions"
+    , "caption": ""
+    , "category": "Support and Logistics"
+    , "document": "https://www.mghihp.edu/coronavirus"
+    , "viewOnCategories": false
+    },
 
 {   
 "_id": "harvard-set"
@@ -506,29 +527,6 @@
 , "partOfSet": true
 },
 
-
-{
-"_id": "support-and-logistics-3"
-, "type": "link" 
-, "folder": "assets/images/categories/advanced-ppe"
-, "title": "Partners Office of Continuing Professional Development"
-, "caption": ""
-, "category": "Support and Logistics"
-, "document": "https://cpd.partners.org/content/covid-19-resource-page"
-, "viewOnCategories": false
-},
-
-{
-"_id": "support-and-logistics-4"
-, "type": "link" 
-, "folder": "assets/images/categories/advanced-ppe"
-, "title": "MGH Institute of Health Professions"
-, "caption": ""
-, "category": "Support and Logistics"
-, "document": "https://www.mghihp.edu/coronavirus"
-, "viewOnCategories": false
-},
-
 {
 "_id": "advanced-ppe-main-card"
 , "type": "set" 
@@ -569,23 +567,6 @@
 , "storyIntro" : ""
 , "hideOnSet" : true
 },
-
-{   
-"_id": "perioperative-care-set"
-, "type": "set" 
-, "folder": "assets/images/categories/perioperative-care"
-, "title": ""
-, "caption":""
-, "category": "Anesthesia"
-, "viewOnCategories": false
-, "set":"Perioperative Care"
-, "partOfSet": true
-, "setCount": "7"
-, "story" : false
-, "storyIntro" : ""
-, "hideOnSet" : true
-},
-
 {   
 "_id": "grand-rounds-set"
 , "type": "set" 
@@ -630,6 +611,22 @@
 , "viewOnCategories": false
 },
 
+{   
+    "_id": "perioperative-care-set"
+    , "type": "set" 
+    , "folder": "assets/images/categories/perioperative-care"
+    , "title": ""
+    , "caption":""
+    , "category": "Anesthesia"
+    , "viewOnCategories": false
+    , "set":"Perioperative Care"
+    , "partOfSet": true
+    , "setCount": "7"
+    , "story" : false
+    , "storyIntro" : ""
+    , "hideOnSet" : true
+    },
+    
 
 {
 "_id": "donning-ppe"
@@ -1172,135 +1169,9 @@
 , "set":"Other Hosptials"
 , "partOfSet": true
 , "viewOnCategories": false
-},
-
-
-{
-"_id": "ecmo-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/ecmo"
-, "title": "Donning PPE"
-, "caption": ""
-, "category": "ECMO"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-
-
-{
-"_id": "emergency-medicine-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/emergency-medicine"
-, "title": "Donning PPE"
-, "caption": ""
-, "category": "Emergency Medicine"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-
-{
-"_id": "ems-transport-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/ems-transport"
-, "title": "Donning PPE"
-, "caption": ""
-, "category": "EMS Transport"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-{
-"_id": "ethics-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/ethics"
-, "title": "Ethics Video"
-, "caption": ""
-, "category": "Ethics"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-
-{
-"_id": "medical-education-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/medical-education"
-, "title": "medical-education Video"
-, "caption": ""
-, "category": "Medical Education"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-{
-"_id": "nursing-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/nursing"
-, "title": "nursing Video"
-, "caption": ""
-, "category": "Nursing"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-{
-"_id": "psychiatry-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/psychiatry"
-, "title": "psychiatry Video"
-, "caption": ""
-, "category": "Psychiatry"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-
-{
-"_id": "surgery-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/surgery"
-, "title": "surgery Video"
-, "caption": ""
-, "category": "Surgery"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-
-{
-"_id": "ultrasound-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/ultrasound"
-, "title": "ultrasound Video"
-, "caption": ""
-, "category": "Ultrasound"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
-},
-
-
-{
-"_id": "ventilators-sample"
-, "type": "video" 
-, "folder": "assets/images/categories/ventilators"
-, "title": "ventilators Video"
-, "caption": ""
-, "category": "Ventilators"
-, "youtube": "jeBhl1ApFT8"
-, "document": "https://ether.mgh.harvard.edu/wiki/images/9/95/Donning.pdf"
-, "viewOnCategories": false
 }
+
+
 
 ]
 }

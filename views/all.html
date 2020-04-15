@@ -17,32 +17,47 @@
 
 	<div class="container">
 
-		<div class="row">
-			<div class="col-12">
-				<div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
-					<div class="btn-group role="group" aria-label="First group">
-					  <button type="button" class="btn btn-secondary active"><i class="fas fa-th"></i></button>
-					  <a href="all.php" type="button" class="btn btn-secondary"><i class="fas fa-list-ul"></i></a>
-					</div>
-				  </div>
-			</div><!-- .col -->
-		</div><!-- .row -->
+		<div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
+			<div class="btn-group" role="group" aria-label="First group">
+			  <a href="index.php" type="button" class="btn btn-secondary"><i class="fas fa-th"></i></a>
+			  <button type="button" class="btn btn-secondary active"><i class="fas fa-list-ul"></i></button>
+			</div>
+		  </div>
 
-			
+			{% for image in categories %}
+			<div class="list-all">
+				{% if image.viewOnCategories == true %}
+					<h1 class="mt-5">{{ image.category}}</h1>
+					<hr/>
+				{% elseif image.hideOnSet == true %}
+					<h2 class="my-4">
+						{{ image.set}}
+					</h2>
+				{% else %}
+					<h3>
+						{% if image.type == 'document'%}
+							<a href="{{image.document}}" class="link" target="_blank">
+								{{ image.title }} <i class="fas fa-file-download"></i>
+							</a>
+						{% elseif image.type == 'link'%}
+							<a href="{{image.document}}" class="link" target="_blank">
+								{{ image.title }} <i class="fas fa-external-link"></i>
+							</a>
+						{% elseif image.type == 'video'%}
+							<a href="photo.php?photo={{image._id}}" class="link">
+								{{ image.title }} <i class="fab fa-youtube"></i>
+								{% if image.caption != null %}
+								<br/><small>{{ image.caption }}</small>
+								{% endif %}
+							</a>
+						{% endif %}
 
-
-		<div class="row mt-2">
-
-			{% for category in categories %}
-				{% include 'common/card.html' with {'view':'categories'} %}
+					</h3>
+				{% endif %}
+			</div>
 			{% endfor %}
-
-			<!--{{cards}}-->
-			{% if name is empty %}
-			{% set name = "test" %}
-			{% endif %}
-
-		</div><!-- .row -->
+			
+	
 	</div><!-- .container -->
 
 	<br/>
